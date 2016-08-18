@@ -3,10 +3,9 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 ---
 [TOC]
 **Created By Hackstoic,**
-- 2016-07-23 created
-- 2016-07-27 updated 
 
 # 监控系统
+
 
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
@@ -37,7 +36,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |   10     |    Shipyard   |       http://github.com/shipyard/shipyard   |   Shipyard 是一个基于 Web 的 Docker 管理工具，支持多 host，可以把多个 Docker host 上的 containers 统一管理；可以查看 images，甚至 build images；并提供 RESTful API 等等。 Shipyard 要管理和控制 Docker host 的话需要先修改 Docker host 上的默认配置使其支持远程管理。    |
 |   11     |     Docker   |     http://github.com/docker/docker     |      Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）。几乎没有性能开销,可以很容易地在机器和数据中心中运行。最重要的是,他们不依赖于任何语言、框架或包装系统。   |
 |   12     |    scope   |     https://github.com/weaveworks/scope     |     一个docker&kubernetes的管理，监控可视化工具， 可以看到容器间的拓扑关系和tcp通信   |
-
+|   13     |    habitus  |    https://github.com/cloud66/habitus     |     一个快速实现docker build 流程的工具， 支持复杂的docker build流程，实现多个dockerfile的build流程，典型应用如将需要静态编译的程序，如go， java这类程序在一个docker build编译好之后，得到的二进制包用到后续的build流程  |
 #  PaaS工具
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
