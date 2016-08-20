@@ -163,7 +163,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     13   |     API-front   |     暂无     |    API front是 HTTP API 前端，可进行请求代理转发、协议抓包分析、流量复制。主要是用于开发测试环境,用来解决开发测试环境多变等问题     |
 |    14   |  esumable file uploads |  https://github.com/tus  |  实现文件上传的断点续传功能， 整套功能包含了协议实现，client， server。 client及server有多种语言的实现包括go， python， node等｜
 ｜15｜pproxy｜https://github.com/hidu/pproxy｜http抓包代理程序,http协议调试工具｜
-
+|   16  |  hystrix-go |    https://github.com/afex/hystrix-go   |    用来隔离远程系统调用， 第三方库调用 ，服务调用， 提供熔断机制，避免雪崩效应的库， Hystrix的go 版本。 注Hystrixs是Netflix开源的一个java库    |
 
 # Web框架
 |序号|名称|项目地址|简介|
@@ -212,6 +212,5 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     16   |     dog-tunnel  |      http://github.com/vzex/dog-tunnel    |      狗洞是一个高速的 P2P 端口映射工具，同时支持Socks5代理。 0.5版后开始开源，UDP底层基于开源库KCP重写，效率大大提高，在恶劣环境下优势明显。 同时提供非P2P版本（Lite版本），两端连接过程完全不依赖中间服务器，支持加密和登陆认证，自动重连，但是需要人为确保两端能正常连通（否则请使用默认的P2P版本）   |
 |    17    |     GRPC  |     https://github.com/grpc  |      GRPC 是一个高性能、开源和通用的 RPC 框架，面向移动和 HTTP/2 设计。目前提供 C、Java 和 Go 语言版本，分别是：grpc, grpc-java, grpc-go. 其中 C 版本支持 C, C++, Node.js, Python, Ruby, Objective-C, PHP 和 C# 支持.GRPC 基于 HTTP/2 标准设计，带来诸如双向流、流控、头部压缩、单 TCP 连接上的多复用请求等特。这些特性使得其在移动设备上表现更好，更省电和节省空间占用。|
 |     18   |     LiteIDE  |     https://github.com/visualfc/liteide     |    LiteIDE是一款开源、跨平台的轻量级Go语言集成开发环境（IDE）。     |
-
-
-参考文献：http://studygolang.com/projects
+|     19   |     firefly-proxy   |     https://github.com/yinghuocho/firefly-proxy     |    穿墙工具。 GFW梯子。 提供客户端和服务端。支持多个平台， 包括linux， macos， windows ，android     |
+|     20   |     wu                   | https://github.com/shanzi/wu/ |  一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
