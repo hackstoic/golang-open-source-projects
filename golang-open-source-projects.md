@@ -37,6 +37,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |   11     |     Docker   |     http://github.com/docker/docker     |      Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）。几乎没有性能开销,可以很容易地在机器和数据中心中运行。最重要的是,他们不依赖于任何语言、框架或包装系统。   |
 |   12     |    scope   |     https://github.com/weaveworks/scope     |     一个docker&kubernetes的管理，监控可视化工具， 可以看到容器间的拓扑关系和tcp通信   |
 |   13     |    habitus  |    https://github.com/cloud66/habitus     |     一个快速实现docker build 流程的工具， 支持复杂的docker build流程，实现多个dockerfile的build流程，典型应用如将需要静态编译的程序，如go， java这类程序在一个docker build编译好之后，得到的二进制包用到后续的build流程  |
+
 #  PaaS工具
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
@@ -73,6 +74,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |   14     |   Orchestrator    |     http://github.com/outbrain/orchestrator     |  MySQL 复制拓扑可视化工具       |
 |    15    |    mysql-schema-sync   |       暂无   |     mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境!|
 |      16  |     TiDB  |     http://github.com/pingcap/tidb     |     TiDB 是国内 PingCAP 团队开发的一个分布式 SQL 数据库。其灵感来自于 Google 的 F1, TiDB 支持包括传统 RDBMS 和 NoSQL 的特性。    |
+|      17     |      kingshard     |      https://github.com/flike/kingshard       |      一个高性能的mysql中间件， 支持读写分离， 数据分片， 安全审计等功能       |
 
 
 
@@ -190,6 +192,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
 |      1  |     fabric  |        https://github.com/hyperledger/fabric  |     Fabric是一个开源区块链实现，开发环境建立在VirtualBox虚拟机上，部署环境可以自建网络，也可以直接部署在BlueMix上，部署方式可传统可docker化，共识达成算法插件化，支持用Go和JavaScript开发智能合约，尤以企业级的安全机制和membership机制为特色。你要是不知道这些术语什么意思，就记住一点，Fabric之于区块链，很可能正如Hadoop之于大数据。    |
+|       2    |    go-ethereum      |        https://github.com/ethereum/go-ethereum            |      go-ethereum客户端通常被称为geth，它是个命令行界面，执行在Go上实现的完整以太坊节点。通过安装和运行geth，可以参与到以太坊前台实时网络并进行以下操作：a. 挖掘真的以太币  b. 在不同地址间转移资金 c .创建合约，发送交易  d . 探索区块历史 e.很多其他功能        |
 
 # 其它
 |序号|名称|项目地址|简介|
@@ -206,7 +209,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |    10    |  FishChat     |     http://github.com/oikomi/FishChatServer     |      FishChat（鱼传——鱼传尺素）分布式可伸缩 IM 服务器，是一款纯 golang 编写优秀的即时通讯软件(IM), 它集合了市面上已有产品的优点, 并具备 智能硬件网关管理(学习QQ物联思想, 构思中)。   |
 |    11    |    goRBAC    |    http://github.com/mikespook/gorbac      |      goRBAC 为 Go 语言应用提供了轻量级的基于角色的访问控制。 |
 |     12   |    boom   |     http://github.com/rakyll/boom     |    Boom 是 google 一女工程师使用 Go 语言开发的类似 apache ab 的性能测试工具。相比 ab，boom跨平台性更好，而且更容易安装。     |
-|    13    |    Mattermost   |      http://github.com/mattermost/platform    |   attermost 是一个 Slack 的开源替代品。Mattermost 采用 Go 语言开发，这是一个开源的团队通讯服务。为团队带来跨 PC 和移动设备的消息、文件分享，提供归档和搜索功能。      |
+|    13    |    Mattermost   |      http://github.com/mattermost/platform    |   mattermost 是一个 Slack 的开源替代品。Mattermost 采用 Go 语言开发，这是一个开源的团队通讯服务。为团队带来跨 PC 和移动设备的消息、文件分享，提供归档和搜索功能。      |
 |    14    |  glot  |    http://github.com/prasmussen/glot      |     glot 是可以可以在线运行各种编程语言代码片段的平台，项目采用 Haskell Script 、Go、Erlang 和 Shell 开发，运行环境基于 Docker 容器进行。 |
 |   15     |   Lantern    |     http://github.com/getlantern/lantern     |      Lantern是一个点对点科学上网软件。   |
 |     16   |     dog-tunnel  |      http://github.com/vzex/dog-tunnel    |      狗洞是一个高速的 P2P 端口映射工具，同时支持Socks5代理。 0.5版后开始开源，UDP底层基于开源库KCP重写，效率大大提高，在恶劣环境下优势明显。 同时提供非P2P版本（Lite版本），两端连接过程完全不依赖中间服务器，支持加密和登陆认证，自动重连，但是需要人为确保两端能正常连通（否则请使用默认的P2P版本）   |
@@ -214,3 +217,6 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     18   |     LiteIDE  |     https://github.com/visualfc/liteide     |    LiteIDE是一款开源、跨平台的轻量级Go语言集成开发环境（IDE）。     |
 |     19   |     firefly-proxy   |     https://github.com/yinghuocho/firefly-proxy     |    穿墙工具。 GFW梯子。 提供客户端和服务端。支持多个平台， 包括linux， macos， windows ，android     |
 |     20   |     wu                   | https://github.com/shanzi/wu/ |  一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
+|     21   |  apex |   https://github.com/apex/apex  |     管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持）|
+|      22      |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库     |
+|       23    |     pholcus       |       https://github.com/henrylee2cn/pholcus      |     [爬虫软件 (golang)] Pholcus（幽灵蛛）是一款纯Go语言编写的支持分布式的高并发、重量级爬虫软件，定位于互联网数据采集，为具备一定Go编程基础的人提供一个只需关注规则定制的功能强大的爬虫工具。 它支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；另外它还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。http://pholcus.gitbooks.io/docs      |
