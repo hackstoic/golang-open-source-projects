@@ -14,7 +14,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     3   |     Kapacitor   |     http://github.com/influxdata/kapacitor     |      Kapacitor 是一个开源框架，用来处理、监控和警告时间序列数据。   |
 |     4   |      Pome |      http://github.com/rach/pome    |    Pome 是 Postgres Metrics 的意思。Pome 是一个 PostgreSQL 的指标仪表器，用来跟踪你的数据库的健康状况。     |
 |     5   | pingd      |    http://github.com/pinggg/pingd      |      pingd 是世界上最简单的监控服务，使用 golang 编写。软件支持 IPv6，但是服务器不支持. pingd 允许同时 ping 上千个 IPs，在此期间还可以管理监控的主机。用户提供主机名或者 IP，还有用户邮箱地址，就可以使用 3 个生成 URLs 来开启，停止或者删除你的追踪。每当你的服务器停机或者后台在线都会发送通知，还包含控制 URLs。   |
-|     6   |    actiontech zabbix mysql monitor   |          |    percona monitoring plugins zabbix 的 Go 语言版本，是由 爱可生 公司开源的 MySQL 监控插件和模板，整合上百个性能监控指标，支持Low Level Discovery 自动发现多实例环境，支持performance_schema   |
+|     6   |    actiontech zabbix mysql monitor   |    https://github.com/actiontech/actiontech_zabbix_mysql_monitor      |    percona monitoring plugins zabbix 的 Go 语言版本，是由 爱可生 公司开源的 MySQL 监控插件和模板，整合上百个性能监控指标，支持Low Level Discovery 自动发现多实例环境，支持performance_schema   |
 |      7  |    rtop   |     http://github.com/rapidloop/rtop     |       top 是一个简单的无代理的远程服务器监控工具，基于 SSH 连接进行工作。无需在被监控的服务器上安装任何软件。rtop 直接通过 SSH 连接到待监控服务器，然后执行命令来收集监控数据。rtop 每几秒钟就自动更新监控数据，类似其他 *top 命令  |
 |     8   |   Prometheus    |    http://github.com/prometheus/prometheus     |     Prometheus 是一个开源的服务监控系统和时间序列数据库， 提供监控数据存储，展示，告警等功能   |
 |      9  |    bosun   |   http://github.com/bosun-monitor/bosun       |      专业的跨平台开源系统监控项目，go语言编写，灵活的模板和表达式配合上各种collector可以监控任何应用或系统级的运行数据，比 zabbix更轻量级、更易入手和更适合定制。|
@@ -54,6 +54,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 | ----- | ----- | -----  | -----  |
 |    1    |     MLF  |     https://github.com/huichen/mlf   |    弥勒佛项目是一个大数据机器学习框架。具有为处理大数据优化，可随业务增长scale up，模型的训练和使用都可以作为library或者service整合到在生产系统中，具有丰富的模型，高度可扩展，高度可读性，适合初学者进行大数据模型的学习等特点    |
 |     2   |     Glow  |    http://github.com/chrislusf/glow      |    low 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
+|      3     |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库     |
 
 # 数据库技术
 |序号|名称|项目地址|简介|
@@ -72,7 +73,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |   12    |     xuncache  |      http://github.com/sun8911879/xuncache    |      xuncache 是免费开源的NOSQL(内存数据库) 采用golang开发,简单易用而且 功能强大(就算新手也完全胜任)、性能卓越能轻松处理海量数据,可用于缓存系统.|
 |     13   |   pgweb    |      http://github.com/sosedoff/pgweb    |       gweb 是一个采用 Go 语言开发的基于 Web 的 PostgreSQL 管理系统。  |
 |   14     |   Orchestrator    |     http://github.com/outbrain/orchestrator     |  MySQL 复制拓扑可视化工具       |
-|    15    |    mysql-schema-sync   |       暂无   |     mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境!|
+|    15    |    mysql-schema-sync   |       https://github.com/hidu/mysql-schema-sync  |     mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境!|
 |      16  |     TiDB  |     http://github.com/pingcap/tidb     |     TiDB 是国内 PingCAP 团队开发的一个分布式 SQL 数据库。其灵感来自于 Google 的 F1, TiDB 支持包括传统 RDBMS 和 NoSQL 的特性。    |
 |      17     |      kingshard     |      https://github.com/flike/kingshard       |      一个高性能的mysql中间件， 支持读写分离， 数据分片， 安全审计等功能       |
 
@@ -164,7 +165,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     12   |   gohttp    |     http://github.com/codeskyblue/gohttp     |      gohttp是一个http的文件服务器，功能有：各种文件的预览功能，实时的目录zip打包下载，二维码扫描下载的支持，苹果应用的在线安装，文件上传等 |
 |     13   |     API-front   |     暂无     |    API front是 HTTP API 前端，可进行请求代理转发、协议抓包分析、流量复制。主要是用于开发测试环境,用来解决开发测试环境多变等问题     |
 |    14   |  esumable file uploads |  https://github.com/tus  |  实现文件上传的断点续传功能， 整套功能包含了协议实现，client， server。 client及server有多种语言的实现包括go， python， node等｜
-｜15｜pproxy｜https://github.com/hidu/pproxy｜http抓包代理程序,http协议调试工具｜
+|15  |  pproxy |   https://github.com/hidu/pproxy  |http抓包代理程序,http协议调试工具 |
 |   16  |  hystrix-go |    https://github.com/afex/hystrix-go   |    用来隔离远程系统调用， 第三方库调用 ，服务调用， 提供熔断机制，避免雪崩效应的库， Hystrix的go 版本。 注Hystrixs是Netflix开源的一个java库    |
 
 # Web框架
@@ -218,5 +219,5 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     19   |     firefly-proxy   |     https://github.com/yinghuocho/firefly-proxy     |    穿墙工具。 GFW梯子。 提供客户端和服务端。支持多个平台， 包括linux， macos， windows ，android     |
 |     20   |     wu                   | https://github.com/shanzi/wu/ |  一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
 |     21   |  apex |   https://github.com/apex/apex  |     管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持）|
-|      22      |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库     |
-|       23    |     pholcus       |       https://github.com/henrylee2cn/pholcus      |     [爬虫软件 (golang)] Pholcus（幽灵蛛）是一款纯Go语言编写的支持分布式的高并发、重量级爬虫软件，定位于互联网数据采集，为具备一定Go编程基础的人提供一个只需关注规则定制的功能强大的爬虫工具。 它支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；另外它还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。http://pholcus.gitbooks.io/docs      |
+
+
