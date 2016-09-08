@@ -94,7 +94,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
 |      1  |   Confd     |     http://github.com/kelseyhightower     |    Confd是一个轻量级的配置管理工具。通过查询Etcd，结合配置模板引擎，保持本地配置最新，同时具备定期探测机制，配置变更自动reload。     |
-|       2 |      zerg |     hhttp://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
+|       2 |      zerg |     http://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
 |     3   |    Doorman   |       https://github.com/youtube/doorman   |      Doorman 是一个客户端速率限制的解决方案，客户端与共享资源进行通讯，包括数据库、gRPC 服务、RESTful API 等等可使用 Doorman 来限制对资源的调用。Doorman 使用 Go 语言开发，使用 gRPC 的通讯协议。其高可用特性需要一个分布式的锁管理器，当前支持 etcd，也可使用 Zookeeper 替代。   |
 |      4  |    Go-kit   |    http://github.com/go-kit/kit      |       Go-kit 是一个 Go 语言的分布式开发包，用于开发微服务。  |
 |       5|    Hprose   |      http://github.com/andot/hprose    |     Hprose 是高性能远程对象服务引擎（High Performance Remote Object Service Engine）的缩写 —— 微服务首选引擎。它是一个先进的轻量级的跨语言跨平台面向对象的高性能远程动态通讯中间件。它不仅简单易用，而且功能强大。你只需要稍许的时间去学习，就能用它轻松构建跨语言跨平台的分布式应用系统了。    |
