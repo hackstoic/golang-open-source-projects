@@ -3,6 +3,8 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 ---
 [TOC]
 **Created By Hackstoic,**
+|      |        |         |         |
+
 
 # 监控系统
 
@@ -20,6 +22,10 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |      9  |    bosun   |   http://github.com/bosun-monitor/bosun       |      专业的跨平台开源系统监控项目，go语言编写，灵活的模板和表达式配合上各种collector可以监控任何应用或系统级的运行数据，比 zabbix更轻量级、更易入手和更适合定制。|
 |     10   |  urlooker   |    https://github.com/urlooker    |    监控web服务可用性及访问质量，采用go语言编写，易于安装和二次开发. 支持一下特性： 返回状态码检测;   页面响应时间检测;  页面关键词匹配检测;   带cookie访问;  agent多机房部署，指定机房访问;  检测结果支持向open-falcon推送;  支持短信和邮件告警    |
 |     11  |  satellite   |    https://github.com/gravitational/satellite  |   用于监测kubernetes健康状态的一个工具／库。 其特点是：轻量级定期测试， 高可用性和弹性网络分区， 无单点故障， 以时间序列的格式存储监控数据。    |
+|   12   |   checkup     |     https://github.com/sourcegraph/checkup    |     一个分布式的无锁的站点健康状态检查工具。 支持检查http， tcp， dns等的状态 并可将结果保存在s3。 自带了一个美观的界面。     |
+|   13   |    zabbixctl      |     https://github.com/kovetskiy/zabbixctl    |     Zabbixctl 是采用Zabbix服务API的命令行工具，它提供了有效的方式去查询和处理trigger 状态、主机最新数据和用户组。
+
+    |
 
 # 容器技术
 |序号|名称|项目地址|简介|
@@ -47,7 +53,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     4   |    DINP   |     http://git.oschina.net/cnperl/dinp-server     |    DINP是又一个基于Docker开发的PaaS平台。     |
 |     5   |    Kubernetes   |     http://github.com/GoogleCloudPlatform/kubernetes     |         Kubernetes 是来自 Google 云平台的开源容器集群管理系统。基于 Docker 构建一个容器的调度服务。该系统可以自动在一个容器集群中选择一个工作容器供使用。其核心概念是 Container Pod。|
 |     6 |     Tsuru   |    http://github.com/tsuru/tsuru      |      在 Tsuru 的 PaaS 服务下，你可以选择自己的编程语言，选择使用 SQL 或者 NoSQL 数据库，memcache、redis、等等许多服务，甚至与你可以使用 Git 版本控制工具来上传你应用。   |
-
+|    7  |     atlantis   |    https://github.com/ooyala/atlantis     |   Atlantis 是一款基于 Docker，使用 Go 编写，为 HTTP 应用准备的开源 PaaS。Atlantis 可以在路由请求中轻松的构建和部署应用到容器。Atlantis 在 Ooyala 的新应用中得到了很广泛的应用。      |
 
 # 大数据
 |序号|名称|项目地址|简介|
@@ -55,6 +61,16 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |    1    |     MLF  |     https://github.com/huichen/mlf   |    弥勒佛项目是一个大数据机器学习框架。具有为处理大数据优化，可随业务增长scale up，模型的训练和使用都可以作为library或者service整合到在生产系统中，具有丰富的模型，高度可扩展，高度可读性，适合初学者进行大数据模型的学习等特点    |
 |     2   |     Glow  |    http://github.com/chrislusf/glow      |    low 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
 |      3     |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库     |
+
+# 微服务
+|序号|名称|项目地址|简介|
+| ----- | ----- | -----  | -----  |
+|    1    |     kite |     https://github.com/koding/kite  |    一个基于go语言的微服务框架, Kite是Koding公司内部的一个框架, 该框架提供服务发现，多种认证功能，服务端通过RPC进行通信，同时还提供了websocket的js库，方便浏览器于服务器间进行通信。    |
+|     2   |     goa  |    https://github.com/goadesign/goa    |   Goa 是一款用 Go 用于构建微服务的框架，采用独特的设计优先的方法。    |
+|      3 |    Go-kit   |    http://github.com/go-kit/kit      |       Go-kit 是一个 Go 语言的分布式开发包，用于开发微服务。  |
+|      4|    Hprose   |      http://github.com/andot/hprose    |     Hprose 是高性能远程对象服务引擎（High Performance Remote Object Service Engine）的缩写 —— 微服务首选引擎。它是一个先进的轻量级的跨语言跨平台面向对象的高性能远程动态通讯中间件。它不仅简单易用，而且功能强大。你只需要稍许的时间去学习，就能用它轻松构建跨语言跨平台的分布式应用系统了。    |
+|    5|   Gizmo    |     http://github.com/NYTimes/gizmo     |   纽约时报开源的go微服务工具.提供如下特性:标准化配置和日志;可配置策略的状态监测端点;用于管理 pprof 端点和日志级别的配置;结构化日志，提供基本请求信息;端点的有用度量;优雅的停止服务; 定义期待和词汇的基本接口  |
+
 
 # 数据库技术
 |序号|名称|项目地址|简介|
@@ -94,16 +110,14 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
 |      1  |   Confd     |     http://github.com/kelseyhightower     |    Confd是一个轻量级的配置管理工具。通过查询Etcd，结合配置模板引擎，保持本地配置最新，同时具备定期探测机制，配置变更自动reload。     |
-|       2 |      zerg |     http://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
+|       2 |      zerg |     hhttp://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
 |     3   |    Doorman   |       https://github.com/youtube/doorman   |      Doorman 是一个客户端速率限制的解决方案，客户端与共享资源进行通讯，包括数据库、gRPC 服务、RESTful API 等等可使用 Doorman 来限制对资源的调用。Doorman 使用 Go 语言开发，使用 gRPC 的通讯协议。其高可用特性需要一个分布式的锁管理器，当前支持 etcd，也可使用 Zookeeper 替代。   |
-|      4  |    Go-kit   |    http://github.com/go-kit/kit      |       Go-kit 是一个 Go 语言的分布式开发包，用于开发微服务。  |
-|       5|    Hprose   |      http://github.com/andot/hprose    |     Hprose 是高性能远程对象服务引擎（High Performance Remote Object Service Engine）的缩写 —— 微服务首选引擎。它是一个先进的轻量级的跨语言跨平台面向对象的高性能远程动态通讯中间件。它不仅简单易用，而且功能强大。你只需要稍许的时间去学习，就能用它轻松构建跨语言跨平台的分布式应用系统了。    |
-|     6  |   Gizmo    |     http://github.com/NYTimes/gizmo     |   纽约时报开源的go微服务工具.提供如下特性:标准化配置和日志;可配置策略的状态监测端点;用于管理 pprof 端点和日志级别的配置;结构化日志，提供基本请求信息;端点的有用度量;优雅的停止服务; 定义期待和词汇的基本接口     |
-|     7   |  mgmt     |     http://github.com/purpleidea/mgmt     |      mgmt 是一个分布式的，事件驱动的配置管理工具。该工具支持并行执行，其 librarification 作为新的及已存在的软件的基础管理工具。   |
-|    8    |    Yoke    |      http://github.com/nanopack/yoke    |     Yoke 是 Postgres 的高可用集群，具有自动切换和自动集群恢复。Postgres冗余/自动故障转移解决方案，提供一个高可用PostgreSQL集群的简单管理。    |
-|    9    |    SeaweedFS   |      http://github.com/chrislusf/seaweedfs    |     SeaweedFS 是简单，高伸缩性的分布式文件系统，包含两部分：存储数十亿的文件；快速为文件服务。SeaweedFS 作为支持全 POSIX 文件系统语义替代，Seaweed-FS 选择仅实现 key-file 的映射，类似 "NoSQL"，也可以说是 "NoFS"。    |
-|     10   |     Glow  |    http://github.com/chrislusf/glow      |    low 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
-|      11  |     Nomad  |   http://github.com/hashicorp/nomad       |    Nomad 是一个集群管理器和调度器，专为微服务和批量处理工作流设计。Nomad 是分布式，高可用，可扩展到跨数据中心和区域的数千个节点。|
+|     4   |  mgmt     |     http://github.com/purpleidea/mgmt     |      mgmt 是一个分布式的，事件驱动的配置管理工具。该工具支持并行执行，其 librarification 作为新的及已存在的软件的基础管理工具。   |
+|   5    |    Yoke    |      http://github.com/nanopack/yoke    |     Yoke 是 Postgres 的高可用集群，具有自动切换和自动集群恢复。Postgres冗余/自动故障转移解决方案，提供一个高可用PostgreSQL集群的简单管理。    |
+|    6   |    SeaweedFS   |      http://github.com/chrislusf/seaweedfs    |     SeaweedFS 是简单，高伸缩性的分布式文件系统，包含两部分：存储数十亿的文件；快速为文件服务。SeaweedFS 作为支持全 POSIX 文件系统语义替代，Seaweed-FS 选择仅实现 key-file 的映射，类似 "NoSQL"，也可以说是 "NoFS"。    |
+|     7   |     Glow  |    http://github.com/chrislusf/glow      |    Glow 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
+|     8 |     Nomad  |   http://github.com/hashicorp/nomad       |    Nomad 是一个集群管理器和调度器，专为微服务和批量处理工作流设计。Nomad 是分布式，高可用，可扩展到跨数据中心和区域的数千个节点。|
+|    9  |     dcmp   |    https://github.com/silenceper/dcmp     |    DCMP是分布式配置管理平台。提供了一个etcd的管理界面，可通过界面修改配置信息，借助confd可实现配置文件的同步。     |
 
 
 
