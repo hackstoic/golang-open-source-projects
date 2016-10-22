@@ -1,17 +1,30 @@
 ---
 title: Golang优秀开源项目汇总（持续更新。。。）
 ---
-[TOC]
-**Created By Hackstoic,**
-|      |        |         |         |
-
+#  目录
+- [监控系统](#监控系统)
+- [容器技术](#容器技术)
+- [PaaS工具](#PaaS工具)
+- [大数据](#大数据)
+- [微服务](#微服务)
+- [数据库技术](#数据库技术)
+- [存储技术](#存储技术)
+- [分布式系统](#分布式系统)
+- [消息系统](#消息系统)
+- [服务器管理](#服务器管理)
+- [安全工具](#安全工具)
+- [网络工具](#网络工具)
+- [Web工具](#Web工具)
+- [Web框架](#Web框架)
+- [区块链技术](#区块链技术)
+- [其它](#其它)
 
 # 监控系统
 
 
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
-|     1   |   OpenFalcon    |      http://github.com/open-falcon/of-release    |     OpenFalcon是一款小米监控系统。功能：数据采集免配置：agent自发现、支持Plugin、主动推送模式; 容量水平扩展：生产环境每秒50万次数据收集、告警、存储、绘图，可持续水平扩展。告警策略自发现：Web界面、支持策略模板、模板继承和覆盖、多种告警方式、支持回调动作。告警设置人性化：支持最大告警次数、告警级别设置、告警恢复通知、告警暂停、不同时段不同阈值、支持维护周期，支持告警合并。历史数据高效查询：秒级返回上百个指标一年的历史数据。Dashboard人性化：多维度的数据展示，用户自定义Dashboard等功能。架构设计高可用：整个系统无核心单点，易运维，易部署。    |
+|     1   |   OpenFalcon    |      http://github.com/open-falcon/of-release    |     OpenFalcon是一款小米开源的监控系统。功能：数据采集免配置：agent自发现、支持Plugin、主动推送模式; 容量水平扩展：生产环境每秒50万次数据收集、告警、存储、绘图，可持续水平扩展。告警策略自发现：Web界面、支持策略模板、模板继承和覆盖、多种告警方式、支持回调动作。告警设置人性化：支持最大告警次数、告警级别设置、告警恢复通知、告警暂停、不同时段不同阈值、支持维护周期，支持告警合并。历史数据高效查询：秒级返回上百个指标一年的历史数据。Dashboard人性化：多维度的数据展示，用户自定义Dashboard等功能。架构设计高可用：整个系统无核心单点，易运维，易部署。    |
 |      2  |     banshee  |      http://github.com/eleme/banshee    |        周期性指标的监控系统. |
 |     3   |     Kapacitor   |     http://github.com/influxdata/kapacitor     |      Kapacitor 是一个开源框架，用来处理、监控和警告时间序列数据。   |
 |     4   |      Pome |      http://github.com/rach/pome    |    Pome 是 Postgres Metrics 的意思。Pome 是一个 PostgreSQL 的指标仪表器，用来跟踪你的数据库的健康状况。     |
@@ -23,9 +36,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     10   |  urlooker   |    https://github.com/urlooker    |    监控web服务可用性及访问质量，采用go语言编写，易于安装和二次开发. 支持一下特性： 返回状态码检测;   页面响应时间检测;  页面关键词匹配检测;   带cookie访问;  agent多机房部署，指定机房访问;  检测结果支持向open-falcon推送;  支持短信和邮件告警    |
 |     11  |  satellite   |    https://github.com/gravitational/satellite  |   用于监测kubernetes健康状态的一个工具／库。 其特点是：轻量级定期测试， 高可用性和弹性网络分区， 无单点故障， 以时间序列的格式存储监控数据。    |
 |   12   |   checkup     |     https://github.com/sourcegraph/checkup    |     一个分布式的无锁的站点健康状态检查工具。 支持检查http， tcp， dns等的状态 并可将结果保存在s3。 自带了一个美观的界面。     |
-|   13   |    zabbixctl      |     https://github.com/kovetskiy/zabbixctl    |     Zabbixctl 是采用Zabbix服务API的命令行工具，它提供了有效的方式去查询和处理trigger 状态、主机最新数据和用户组。
-
-    |
+|   13   |    zabbixctl      |     https://github.com/kovetskiy/zabbixctl    |     Zabbixctl 是采用Zabbix服务API的命令行工具，它提供了有效的方式去查询和处理trigger 状态、主机最新数据和用户组。 |
 
 # 容器技术
 |序号|名称|项目地址|简介|
@@ -44,7 +55,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |   12     |    scope   |     https://github.com/weaveworks/scope     |     一个docker&kubernetes的管理，监控可视化工具， 可以看到容器间的拓扑关系和tcp通信   |
 |   13     |    habitus  |    https://github.com/cloud66/habitus     |     一个快速实现docker build 流程的工具， 支持复杂的docker build流程，实现多个dockerfile的build流程，典型应用如将需要静态编译的程序，如go， java这类程序在一个docker build编译好之后，得到的二进制包用到后续的build流程  |
 
-#  PaaS工具
+# PaaS工具
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
 |      1  |      Kel |      http://github.com/kelproject    |    Kel 是一个开源的基于 Kubernetes 构建的 PaaS 系统，采用 Python 和 Go 语言开发。Kel 可简化管理 Web 应用发布和托管整个软件生命周期。Kel 帮助开发和运维人员轻松管理他们的应用架构，通过一组工具和组件让 K8S 使用非常简单。     |
@@ -60,7 +71,9 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 | ----- | ----- | -----  | -----  |
 |    1    |     MLF  |     https://github.com/huichen/mlf   |    弥勒佛项目是一个大数据机器学习框架。具有为处理大数据优化，可随业务增长scale up，模型的训练和使用都可以作为library或者service整合到在生产系统中，具有丰富的模型，高度可扩展，高度可读性，适合初学者进行大数据模型的学习等特点    |
 |     2   |     Glow  |    http://github.com/chrislusf/glow      |    low 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
-|      3     |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库     |
+|      3     |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库, 包含了许多工具，能让你以在线方式学习其频道的数据内容。     |
+|     4      |     Golearn   |         |       GoLearn实现了熟悉的Scikit-learn 适应/预测界面，可实现快速预估测试和交换。GoLearn是一个成熟的项目，它提供了交叉验证和训练/测试等辅助功能。  |
+|     5      |     Gorgonia   |         |     这个机器学习资料库完全是用Go语言编写而成，据其开发者“chewxy”称能“ 提供动态建立神经网络及相关算法必需条件 。”    |
 
 # 微服务
 |序号|名称|项目地址|简介|
@@ -70,7 +83,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |      3 |    Go-kit   |    http://github.com/go-kit/kit      |       Go-kit 是一个 Go 语言的分布式开发包，用于开发微服务。  |
 |      4|    Hprose   |      http://github.com/andot/hprose    |     Hprose 是高性能远程对象服务引擎（High Performance Remote Object Service Engine）的缩写 —— 微服务首选引擎。它是一个先进的轻量级的跨语言跨平台面向对象的高性能远程动态通讯中间件。它不仅简单易用，而且功能强大。你只需要稍许的时间去学习，就能用它轻松构建跨语言跨平台的分布式应用系统了。    |
 |    5|   Gizmo    |     http://github.com/NYTimes/gizmo     |   纽约时报开源的go微服务工具.提供如下特性:标准化配置和日志;可配置策略的状态监测端点;用于管理 pprof 端点和日志级别的配置;结构化日志，提供基本请求信息;端点的有用度量;优雅的停止服务; 定义期待和词汇的基本接口  |
-
+|   6  |  hystrix-go |    https://github.com/afex/hystrix-go   |    用来隔离远程系统调用， 第三方库调用 ，服务调用， 提供熔断机制，避免雪崩效应的库， Hystrix的go 版本。 注Hystrixs是Netflix开源的一个java库    |
 
 # 数据库技术
 |序号|名称|项目地址|简介|
@@ -138,9 +151,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |      3  |     ssh2go   |    http://github.com/karfield      |      ssh2go 是对libssh的golang 封装。libssh是SSH的代码库，同时支持服务端和客户端，日常所见的ssh, sshd, scp, sftp均基于libssh。ssh2go是对libssh的Go语言绑定， 100%的libssh接口都可用，同时集成示例，方便参考。   |
 |    4    |     Gooverssh   |      https://github.com/scottkiss/gooverssh    |       gooverssh 是基于gosshtool的一个ssh开发包开发的一个基于ssh本地端口转发服务小应用，可以方便突破一些网络限制，如通过ssh代理访问内网数据库服  |
 |     5   |     gosshtool  |       http://github.com/scottkiss/gosshtool   |      gosshtool provide some useful functions for ssh client in golang.implemented using golang.org/x/crypto/ssh.go语言中提供ssh相关操作，支持ssh本地端口转发服务   |
-|     6   |    WebConsole   |      http://git.oschina.net/shibingli/webconsole    |       基于Golang、WebSocket、TermJS的SSH远程终端,主要应用到隔离网络内，SSH远程终端的访问问题。  |
-|    7    |    GoWebSSH   |      http://github.com/who246/GoWebSSH    |      GoWebSSH －golang 语言开发的 web server manager 服务器及命令管理/beego开源框架/WebSocket技术   |
-|   8    |    teleport   |     https://github.com/gravitational/teleport  |      teleport 是 初创公司Gravitational 的一款基于ssh和https的远程管理linux 集群服务器的工具， 其特点是支持双重校验登陆；操作记录回放；session共享，便于协作排障；自动发现集群的服务器和容器  |
+|   6    |    teleport   |     https://github.com/gravitational/teleport  |      teleport 是 初创公司Gravitational 的一款基于ssh和https的远程管理linux 集群服务器的工具， 其特点是支持双重校验登陆；操作记录回放；session共享，便于协作排障；自动发现集群的服务器和容器  |
 
 # 安全工具
 |序号|名称|项目地址|简介|
@@ -161,7 +172,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |    5  |   Traefik    |     https://github.com/containous/traefik     |      Træfɪk 是一个新型的http反向代理、负载均衡软件，能轻易的部署微服务. 它支持多种后端 (Docker, Swarm, Mesos/Marathon, Consul, Etcd, Zookeeper, BoltDB, Rest API, file...) ,可以对配置进行自动化、动态的管理.   |
 |   6    |     TChannel  |     http://github.com/uber/tchannel     |     TChannel 是用于 RPC 的网络复用和成帧协议。   |
 |  7     |     go-tcp-proxy   |   https://github.com/jpillora/go-tcp-proxy  |   go-tcp-proxy是一个简单的tcp代理， 可以用于tcp端口转发， 也可以用做http代理使用 |
-
+|   8   |    myLG    |     https://github.com/mehrdadrad/mylg    |     myLG是一个开源的网络工具集，它包含了很多不同类型的网络诊断工具, 功能包括ping，trace， bgp， dns lookup， 端口扫描， 局域网网络发现，提供web界面, tcpdump等     |
 
 # Web工具
 |序号|名称|项目地址|简介|
@@ -224,7 +235,7 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     9   |    Qor    |     http://github.com/qor/qor     |      Qor 是基于 Golang 开发的的CMS 一系列工具库，基于 Qor可以快速搭建网站的后台管理系统。Qor 的工作库包含：1，后台管理：可以对数据库进去 CURD 管理，支持一对一，一对多，多对多关联关系维护等等； 2，支持上传图片到云以及 filesystem，resize、crop 图片等等 ；3，Publish 发布系统，可以修改数据，并且经过检查后，再发布到正式环境中； 4，状态机，可以用于开发工作流的系统； 5，I18n，翻译，可以通过在 WEB 界面翻译，并将翻译保存到数据库中； 6，L10n，本地化，不同于翻译，他可以针对某个地区来对内容，或者数据结构进行本地化。7，Roles，权限管理； 8，Exchange，通过 Excel，CSV 导入导出数据； 9，Worker，后台任务管理，可用于跑定时任务等等   |
 |    10    |  FishChat     |     http://github.com/oikomi/FishChatServer     |      FishChat（鱼传——鱼传尺素）分布式可伸缩 IM 服务器，是一款纯 golang 编写优秀的即时通讯软件(IM), 它集合了市面上已有产品的优点, 并具备 智能硬件网关管理(学习QQ物联思想, 构思中)。   |
 |    11    |    goRBAC    |    http://github.com/mikespook/gorbac      |      goRBAC 为 Go 语言应用提供了轻量级的基于角色的访问控制。 |
-|     12   |    boom   |     http://github.com/rakyll/boom     |    Boom 是 google 一女工程师使用 Go 语言开发的类似 apache ab 的性能测试工具。相比 ab，boom跨平台性更好，而且更容易安装。     |
+|     12   |    hey   |     http://github.com/rakyll/hey     |    Boom 是 google 一女工程师使用 Go 语言开发的类似 apache ab 的性能测试工具。相比 ab，boom跨平台性更好，而且更容易安装。     |
 |    13    |    Mattermost   |      http://github.com/mattermost/platform    |   mattermost 是一个 Slack 的开源替代品。Mattermost 采用 Go 语言开发，这是一个开源的团队通讯服务。为团队带来跨 PC 和移动设备的消息、文件分享，提供归档和搜索功能。      |
 |    14    |  glot  |    http://github.com/prasmussen/glot      |     glot 是可以可以在线运行各种编程语言代码片段的平台，项目采用 Haskell Script 、Go、Erlang 和 Shell 开发，运行环境基于 Docker 容器进行。 |
 |   15     |   Lantern    |     http://github.com/getlantern/lantern     |      Lantern是一个点对点科学上网软件。   |
@@ -235,4 +246,4 @@ title: Golang优秀开源项目汇总（持续更新。。。）
 |     20   |     wu                   | https://github.com/shanzi/wu/ |  一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
 |     21   |  apex |   https://github.com/apex/apex  |     管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持）|
 
-
+**[⬆ 返回顶部](#目录)**
