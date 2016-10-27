@@ -70,10 +70,10 @@
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
 |    1    |     MLF  |     https://github.com/huichen/mlf   |    弥勒佛项目是一个大数据机器学习框架。具有为处理大数据优化，可随业务增长scale up，模型的训练和使用都可以作为library或者service整合到在生产系统中，具有丰富的模型，高度可扩展，高度可读性，适合初学者进行大数据模型的学习等特点    |
-|     2   |     Glow  |    http://github.com/chrislusf/glow      |    low 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
+|     2   |     Glow  |    http://github.com/chrislusf/glow      |    glow 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
 |      3     |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库, 包含了许多工具，能让你以在线方式学习其频道的数据内容。     |
-|     4      |     Golearn   |         |       GoLearn实现了熟悉的Scikit-learn 适应/预测界面，可实现快速预估测试和交换。GoLearn是一个成熟的项目，它提供了交叉验证和训练/测试等辅助功能。  |
-|     5      |     Gorgonia   |         |     这个机器学习资料库完全是用Go语言编写而成，据其开发者“chewxy”称能“ 提供动态建立神经网络及相关算法必需条件 。”    |
+|     4      |     Golearn   |     https://github.com/sjwhitworth/golearn    |       GoLearn实现了熟悉的Scikit-learn 适应/预测界面，可实现快速预估测试和交换。GoLearn是一个成熟的项目，它提供了交叉验证和训练/测试等辅助功能。  |
+|     5      |     Gorgonia   |    https://github.com/chewxy/gorgonia     |     这个机器学习资料库完全是用Go语言编写而成，据其开发者“chewxy”称能“ 提供动态建立神经网络及相关算法必需条件 。”    |
 
 # 微服务
 |序号|名称|项目地址|简介|
