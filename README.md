@@ -209,14 +209,14 @@
 |    7   |   utron    |    http://github.com/gernest/utron      |    utron 是一个 Go 语言轻量级的 MVC 框架，用于快速构建可伸缩以及可靠的数据库驱动的 Web 应用。     |
 |    8    |     Lessgo  |    http://github.com/lessgo/lessgo      |   Lessgo 是一款 Go 语言编写的简单、稳定、高效、灵活的 web 完全开发框架。它的项目组织形式经过精心设计，实现前后端分离、系统与业务分离，完美兼容MVC与MVVC等多种开发模式，非常利于企业级应用与API接口的开发。当然，最值得关注的是它突破性地支持了运行时路由重建，开发者可在Admin后台轻松实现启用/禁用模块与操作，添加/移除中间件等功能！同时，它推荐以HandlerFunc与MiddlewareFunc为基础的函数式编程，也令开发变得更加灵活富有趣味性。      |
 |     9   |  Hopen     |      http://github.com/who246/hopen    |      Golang web极速开发框架。   |
-|    10  |      ThinkGo  |       http://github.com/henrylee2cn/thinkgo   |      ThinkGo 是一款 Go 语言编写的 web 快速开发框架。它基于开源框架 Gin 进行二次开发，旨在实现一种类 ThinkPHP 的高可用、高效率的 web 框架。在此感谢 Gin 和 httprouter。它最显著的特点是模块、控制器、操作三段式的标准 MVC 架构，且模块与插件的目录结构完全一致，令开发变得非常简单灵活。   |
+|    10  |      ThinkGo  |       http://github.com/henrylee2cn/thinkgo   |      ThinkGo 是一款 Go 语言编写的 web 快速开发框架。它基于开源框架 Echo 进行二次开发，旨在实现一种类 ThinkPHP 的高可用、高效率的 web 框架。在此感谢 Echo 和 httprouter。它最显著的特点是模块、控制器、操作三段式的标准 MVC 架构，且模块与插件的目录结构完全一致，令开发变得非常简单灵活。   |
 |     11   |     beego   |     http://github.com/astaxie/beego     |     beego是一个用Go开发的应用框架，思路来自于tornado，路由设计来源于sinatra，    |
 |     12  |    Revel   |     http://github.com/robfig/revel     |      Revel 是 Go 语言的框架，其思路完全来自 Java 的 Play Framework。   |
 |     13   |   Martini    |     http://github.com/codegangsta/martini     |       Martini 是一个非常新的 Go 语言的 Web 框架，使用 Go 的 net/http 接口开发，类似 Sinatra 或者 Flask 之类的框架，你可使用自己的 DB 层、会话管理和模板。  |
 |     14   |     Tango  |       http://github.com/lunny/tango   |      Tango，微内核可扩展的Go语言Web框架。同时支持函数和结构体作为执行体，插件丰富。|
 |     15   |  Macaron     |    https://github.com/go-macaron/macaron      |      Macaron 是一个具有高生产力和模块化设计的 Go Web 框架。框架秉承了 Martini 的基本思想，并在此基础上做出高级扩展。   |
-|     16   |  Web.go     |    http://github.com/hoisie/web      |     eb.go 跟 web.py 类似，但使用的是 Go 编程语言实现的 Web 应用开发框架。Go发布没多久该框架就诞生了，差不多是最早的Go框架。目前已经有段时间没有更新了。不过，该框架代码不多，其源码可以读一读。    |
-
+|     16   |  Web.go     |    http://github.com/hoisie/web      |     web.go 跟 web.py 类似，但使用的是 Go 编程语言实现的 Web 应用开发框架。Go发布没多久该框架就诞生了，差不多是最早的Go框架。目前已经有段时间没有更新了。不过，该框架代码不多，其源码可以读一读。    |
+|     17   |  Echo       |    https://github.com/labstack/echo  |     Echo 是个快速的 HTTP 路由器（零动态内存分配），也是 Go 的微型 Web 框架。|
 
 # 区块链技术
 |序号|名称|项目地址|简介|
