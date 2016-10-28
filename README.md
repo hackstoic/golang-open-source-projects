@@ -54,6 +54,7 @@
 |   11     |     Docker   |     http://github.com/docker/docker     |      Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）。几乎没有性能开销,可以很容易地在机器和数据中心中运行。最重要的是,他们不依赖于任何语言、框架或包装系统。   |
 |   12     |    scope   |     https://github.com/weaveworks/scope     |     一个docker&kubernetes的管理，监控可视化工具， 可以看到容器间的拓扑关系和tcp通信   |
 |   13     |    habitus  |    https://github.com/cloud66/habitus     |     一个快速实现docker build 流程的工具， 支持复杂的docker build流程，实现多个dockerfile的build流程，典型应用如将需要静态编译的程序，如go， java这类程序在一个docker build编译好之后，得到的二进制包用到后续的build流程  |
+|   14     |    sextant |    https://github.com/k8sp/sextant     |    sextant 提供了可以通过PXE全自动化安装初始化一个CoreOS+kubernetes集群。  |
 
 # PaaS工具
 |序号|名称|项目地址|简介|
@@ -227,7 +228,7 @@
 # 其它
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
-|     1   |    Meizar    |    http://github.com/qibin0506      |    golang实现抓取妹子图。默认图片来源网站：http://jandan.net。 也可以自定义规则抓取其它网站的图片     |
+|     1   |    kone   |    https://github.com/xjdrew/kone    |  可用于家庭或者企业网络的透明代理，可用来翻墙等     |
 |     2   |     KodeRunr  |     https://github.com/jaxi/koderunr     |       KodeRunr (读作 code runner) 是款我在闲暇时间用Go语言编写的应用。顾名思义，你可以用它在网页上、命令行里写程序，贴代码，与此同时无需在本地安装任何编程语言。支持Ruby, Python, GO, Swift, C, Elixir等|
 |    3    |     godaemon  |     http://github.com/tim1020/godaemon     |   godaemon是用来为应用增加daemon和graceful的。      |
 |      4  |    Gomobile    |      http://github.com/golang/mobile    |     Gomobile是一个应用于iOS和Android的优秀跨平台开发库，为开发者提供用于创建Android和iOS 移动平台代码的工具。    |
