@@ -126,7 +126,7 @@
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
 |      1  |   Confd     |     https://github.com/kelseyhightower     |    Confd是一个轻量级的配置管理工具。通过查询Etcd，结合配置模板引擎，保持本地配置最新，同时具备定期探测机制，配置变更自动reload。     |
-|       2 |      zerg |     hhttps://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
+|       2 |      zerg |     https://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
 |     3   |    Doorman   |       https://github.com/youtube/doorman   |      Doorman 是一个客户端速率限制的解决方案，客户端与共享资源进行通讯，包括数据库、gRPC 服务、RESTful API 等等可使用 Doorman 来限制对资源的调用。Doorman 使用 Go 语言开发，使用 gRPC 的通讯协议。其高可用特性需要一个分布式的锁管理器，当前支持 etcd，也可使用 Zookeeper 替代。   |
 |     4   |  mgmt     |     https://github.com/purpleidea/mgmt     |      mgmt 是一个分布式的，事件驱动的配置管理工具。该工具支持并行执行，其 librarification 作为新的及已存在的软件的基础管理工具。   |
 |   5    |    Yoke    |      https://github.com/nanopack/yoke    |     Yoke 是 Postgres 的高可用集群，具有自动切换和自动集群恢复。Postgres冗余/自动故障转移解决方案，提供一个高可用PostgreSQL集群的简单管理。    |
