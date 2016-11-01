@@ -87,7 +87,7 @@
 |   6  |  hystrix-go |    https://github.com/afex/hystrix-go   |    用来隔离远程系统调用， 第三方库调用 ，服务调用， 提供熔断机制，避免雪崩效应的库， Hystrix的go 版本。 注Hystrixs是Netflix开源的一个java库    |
 |   7  |  gateway |    https://github.com/fagongzi/gateway  |   Gateway是一个使用go实现的基于HTTP的API 网关。**特性** ：API 聚合 ; 流控;  熔断; 负载均衡; 健康检查;  监控;  消息路由;  后端管理WebUI .  **能做什么**：规划更友好的URL给调用者。聚合多个API的结果返回给API调用者，利于移动端，后端可以实现原子接口。保护后端API服务不会被突发异常流量压垮。提供熔断机制，使得后端API Server具备自我恢复能力。借助消息路由能力，实现灰度发布，AB测试。|
 |   8  |  fabio |    https://github.com/eBay/fabio   |    fabio 是 ebay 团队用 golang 开发的一个快速、简单零配置能够让 consul 部署的应用快速支持 http(s) 的负载均衡路由器。这里有一篇中文文章http://dockone.io/article/1567介绍了如何用fabio＋consul实现服务发现，负载均衡，并阐述了原理， 最后还有demo程序 |
-
+|   9  |  appdash|    https://github.com/sourcegraph/appdash   |    go版本的分布式应用跟踪系统， 基于google dapper的原理构建 |
 
 # 数据库技术
 |序号|名称|项目地址|简介|
@@ -109,6 +109,7 @@
 |    15    |    mysql-schema-sync   |       https://github.com/hidu/mysql-schema-sync  |     mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境!|
 |      16  |     TiDB  |     http://github.com/pingcap/tidb     |     TiDB 是国内 PingCAP 团队开发的一个分布式 SQL 数据库。其灵感来自于 Google 的 F1, TiDB 支持包括传统 RDBMS 和 NoSQL 的特性。    |
 |      17     |      kingshard     |      https://github.com/flike/kingshard       |      一个高性能的mysql中间件， 支持读写分离， 数据分片， 安全审计等功能       |
+|      18    |      influxdb     |      https://github.com/influxdata/influxdb       |     一个可以水平扩展的时间序列数据库， 内建http api， 支持对数据打tag，灵活的查询策略和数据的实时查询，支持类sql语句进行查询      |
 
 
 
@@ -127,7 +128,7 @@
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
 |      1  |   Confd     |     http://github.com/kelseyhightower     |    Confd是一个轻量级的配置管理工具。通过查询Etcd，结合配置模板引擎，保持本地配置最新，同时具备定期探测机制，配置变更自动reload。     |
-|       2 |      zerg |     hhttp://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
+|       2 |      zerg |     http://github.com/huichen/zerg    |    基于docker的分布式爬虫服务     |
 |     3   |    Doorman   |       https://github.com/youtube/doorman   |      Doorman 是一个客户端速率限制的解决方案，客户端与共享资源进行通讯，包括数据库、gRPC 服务、RESTful API 等等可使用 Doorman 来限制对资源的调用。Doorman 使用 Go 语言开发，使用 gRPC 的通讯协议。其高可用特性需要一个分布式的锁管理器，当前支持 etcd，也可使用 Zookeeper 替代。   |
 |     4   |  mgmt     |     http://github.com/purpleidea/mgmt     |      mgmt 是一个分布式的，事件驱动的配置管理工具。该工具支持并行执行，其 librarification 作为新的及已存在的软件的基础管理工具。   |
 |   5    |    Yoke    |      http://github.com/nanopack/yoke    |     Yoke 是 Postgres 的高可用集群，具有自动切换和自动集群恢复。Postgres冗余/自动故障转移解决方案，提供一个高可用PostgreSQL集群的简单管理。    |
@@ -135,6 +136,7 @@
 |     7   |     Glow  |    http://github.com/chrislusf/glow      |    Glow 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
 |     8 |     Nomad  |   http://github.com/hashicorp/nomad       |    Nomad 是一个集群管理器和调度器，专为微服务和批量处理工作流设计。Nomad 是分布式，高可用，可扩展到跨数据中心和区域的数千个节点。|
 |    9  |     dcmp   |    https://github.com/silenceper/dcmp     |    DCMP是分布式配置管理平台。提供了一个etcd的管理界面，可通过界面修改配置信息，借助confd可实现配置文件的同步。     |
+|    10  |     gleam   |    https://github.com/chrislusf/gleam     |    此处是一个通过Go和LuaJIT编写的快速和可扩展的分布式map/reduce系统，很好的将Go的高并发性与Luajit高性能相结合，可独立运行或用于分布式计算。     |
 
 
 
@@ -249,5 +251,6 @@
 |     19   |     firefly-proxy   |     https://github.com/yinghuocho/firefly-proxy     |    穿墙工具。 GFW梯子。 提供客户端和服务端。支持多个平台， 包括linux， macos， windows ，android     |
 |     20   |     wu                   | https://github.com/shanzi/wu/ |  一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
 |     21   |  apex |   https://github.com/apex/apex  |     管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持）|
+|     22   |  gosuv |   https://github.com/codeskyblue/gosuv |     进程管理， 类似于python的supervisord ， 提供了web管理界面|
 
 **[⬆ 返回顶部](#目录)**
