@@ -6,6 +6,7 @@
 - [PaaS工具](#PaaS工具)
 - [大数据](#大数据)
 - [微服务](#微服务)
+- [持续集成与持续部署](#持续集成与持续部署)
 - [数据库技术](#数据库技术)
 - [存储技术](#存储技术)
 - [分布式系统](#分布式系统)
@@ -89,6 +90,12 @@
 |   8  |  fabio |    https://github.com/eBay/fabio   |    fabio 是 ebay 团队用 golang 开发的一个快速、简单零配置能够让 consul 部署的应用快速支持 http(s) 的负载均衡路由器。这里有一篇中文文章http://dockone.io/article/1567介绍了如何用fabio＋consul实现服务发现，负载均衡，并阐述了原理， 最后还有demo程序 |
 |   9  |  appdash|    https://github.com/sourcegraph/appdash   |    go版本的分布式应用跟踪系统， 基于google dapper的原理构建 |
 
+# 持续集成与持续部署
+
+|序号|名称|项目地址|简介|
+| ----- | ----- | -----  | -----  |
+| 1 | Cyclone | https://github.com/caicloud/cyclone | Cyclone 是一个打造容器工作流的云原生持续集成持续发布平台，简单易用，使用 Go 语言开发，有详尽的中文文档 |
+| 2 | Drone | https://github.com/drone/drone | Drone 是一个基于 Docker 的持续发布平台，使用 Go 语言开发 |
 
 # 数据库技术
 |序号|名称|项目地址|简介|
