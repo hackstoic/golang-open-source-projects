@@ -37,6 +37,7 @@
 |   12   |   checkup     |     https://github.com/sourcegraph/checkup    |     一个分布式的无锁的站点健康状态检查工具。 支持检查http， tcp， dns等的状态 并可将结果保存在s3。 自带了一个美观的界面。     |
 |   13   |    zabbixctl      |     https://github.com/kovetskiy/zabbixctl    |     Zabbixctl 是采用Zabbix服务API的命令行工具，它提供了有效的方式去查询和处理trigger 状态、主机最新数据和用户组。 |
 |   14   |   cloudinsight-agent    |    https://github.com/cloudinsight/cloudinsight-agent/  |    提供可视化监控的saas平台cloudinsight开源的一个监控客户端。 Cloudinsight 探针可以收集它所在操作系统的各种指标，然后发送到 Cloudinsight 后端服务 |
+|   15   |   owl  |   https://github.com/TalkingData/owl  |    OWL是TalkingData公司推出的一款开源分布式监控系统, 演示环境http://54.223.127.87/， 登录账号密码demo/demo |
 
 # 容器技术
 |序号|名称|项目地址|简介|
@@ -227,6 +228,7 @@
 | ----- | ----- | -----  | -----  |
 |      1  |     fabric  |        https://github.com/hyperledger/fabric  |     Fabric是一个开源区块链实现，开发环境建立在VirtualBox虚拟机上，部署环境可以自建网络，也可以直接部署在BlueMix上，部署方式可传统可docker化，共识达成算法插件化，支持用Go和JavaScript开发智能合约，尤以企业级的安全机制和membership机制为特色。你要是不知道这些术语什么意思，就记住一点，Fabric之于区块链，很可能正如Hadoop之于大数据。    |
 |       2    |    go-ethereum      |        https://github.com/ethereum/go-ethereum            |      go-ethereum客户端通常被称为geth，它是个命令行界面，执行在Go上实现的完整以太坊节点。通过安装和运行geth，可以参与到以太坊前台实时网络并进行以下操作：a. 挖掘真的以太币  b. 在不同地址间转移资金 c .创建合约，发送交易  d . 探索区块历史 e.很多其他功能        |
+|       3   |    chain      |        https://github.com/chain/chain          |      **金融领域的区块链项目 **. Chain是由一家刚成立两年的美国创业公司Chain推出，是一个企业级的区块链平台架构，可以让机构构造从零开始更好的金融服务。Chain 开放标准在以下方面实现突破：• 全新的共识模型在不到一秒的时间里实现交易的最终完成，即便是交易量非常大也能支持;• 私密解决方案对区块链数据进行加密，并让相关对手方和监管者进行有选择的读取;• 智能合约框架和虚拟机支持简单的规则执行，以及进行键值存储的图灵完整程序; • 可伸缩的数据模型可以为网络参与者降低运行负荷; • 丰富的元数据层可支持满足KYC（了解你的客户）和 AML（反洗钱）要求       |
 
 # 其它
 |序号|名称|项目地址|简介|
