@@ -6,7 +6,7 @@
 - [PaaS工具](#PaaS工具)
 - [大数据](#大数据)
 - [微服务](#微服务)
-- [持续集成与持续部署](#持续集成与持续部署)
+- [CI/CD](#CI/CD)
 - [数据库技术](#数据库技术)
 - [存储技术](#存储技术)
 - [分布式系统](#分布式系统)
@@ -68,6 +68,7 @@
 |     5   |    Kubernetes   |     https://github.com/GoogleCloudPlatform/kubernetes     |         Kubernetes 是来自 Google 云平台的开源容器集群管理系统。基于 Docker 构建一个容器的调度服务。该系统可以自动在一个容器集群中选择一个工作容器供使用。其核心概念是 Container Pod。|
 |     6 |     Tsuru   |    https://github.com/tsuru/tsuru      |      在 Tsuru 的 PaaS 服务下，你可以选择自己的编程语言，选择使用 SQL 或者 NoSQL 数据库，memcache、redis、等等许多服务，甚至与你可以使用 Git 版本控制工具来上传你应用。   |
 |    7  |     atlantis   |    https://github.com/ooyala/atlantis     |   Atlantis 是一款基于 Docker，使用 Go 编写，为 HTTP 应用准备的开源 PaaS。Atlantis 可以在路由请求中轻松的构建和部署应用到容器。Atlantis 在 Ooyala 的新应用中得到了很广泛的应用。      |
+|    8  |     lain   |    https://github.com/laincloud/lain     |   Lain 是一个基于 docker 的 PaaS 系统。其面向技术栈多样寻求高效运维方案的高速发展中的组织，devops 人力缺乏的 startup ，个人开发者。统一高效的开发工作流，降低应用运维复杂度；在 IaaS / 私有 IDC 裸机的基础上直接提供应用开发，集成，部署，运维的一揽子解决方案。      |
 
 # 大数据
 |序号|名称|项目地址|简介|
@@ -77,6 +78,7 @@
 |      3     |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库, 包含了许多工具，能让你以在线方式学习其频道的数据内容。     |
 |     4      |     Golearn   |     https://github.com/sjwhitworth/golearn    |       GoLearn实现了熟悉的Scikit-learn 适应/预测界面，可实现快速预估测试和交换。GoLearn是一个成熟的项目，它提供了交叉验证和训练/测试等辅助功能。  |
 |     5      |     Gorgonia   |    https://github.com/chewxy/gorgonia     |     这个机器学习资料库完全是用Go语言编写而成，据其开发者“chewxy”称能“ 提供动态建立神经网络及相关算法必需条件 。”    |
+|     6      |     poseidon  |  https://github.com/Qihoo360/poseidon     |    Poseidon 系统是一个日志搜索平台，可以在数百万亿条、数百PB大小的日志数据中快速分析和检索特定字符串。该系统可以应用于任何结构化或非结构化海量(从万亿到千万亿规模)数据的查询检索需求)。    |
 
 # 微服务
 |序号|名称|项目地址|简介|
@@ -91,7 +93,7 @@
 |   8  |  fabio |    https://github.com/eBay/fabio   |    fabio 是 ebay 团队用 golang 开发的一个快速、简单零配置能够让 consul 部署的应用快速支持 http(s) 的负载均衡路由器。这里有一篇中文文章http://dockone.io/article/1567介绍了如何用fabio＋consul实现服务发现，负载均衡，并阐述了原理， 最后还有demo程序 |
 |   9  |  appdash|    https://github.com/sourcegraph/appdash   |    go版本的分布式应用跟踪系统， 基于google dapper的原理构建 |
 
-# 持续集成与持续部署
+# CI/CD
 
 |序号|名称|项目地址|简介|
 | ----- | ----- | -----  | -----  |
@@ -175,6 +177,7 @@
 |      2  |    Hyperfox   |    https://github.com/xiam/hyperfox      |        Hyperfox 是一个安全的工具用来代理和记录局域网中的 HTTP 和 HTTPS 通讯。 |
 |    3    |    Gryffin   |   https://github.com/yahoo/gryffin       |       Gryffin 是雅虎开发的一个大规模 Web 安全扫描平台。它不是另外一个扫描器，其主要目的是为了解决两个特定的问题 —— 覆盖率和伸缩性。  |
 |     4   |    ngrok   |      https://github.com/inconshreveable/ngrok    |     ngrok 是一个反向代理，通过在公共的端点和本地运行的 Web 服务器之间建立一个安全的通道。ngrok 可捕获和分析所有通道上的流量，便于后期分析和重放。|
+
 
 
 # 网络工具
@@ -262,5 +265,7 @@
 |     20   |     wu                   | https://github.com/shanzi/wu/ |  一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
 |     21   |  apex |   https://github.com/apex/apex  |     管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持）|
 |     22   |  gosuv |   https://github.com/codeskyblue/gosuv |     进程管理， 类似于python的supervisord ， 提供了web管理界面|
+|     23   |  chaosmonkey |   https://github.com/Netflix/chaosmonkey |     Chaos Monkey是netflix公司开源的一个用于服务可用性测试的工具，通过有计划的在生产系统制造真实的故障（如cpu负载高， 内存溢出，磁盘写满，服务器宕机等）来检测系统的可用性。 |
+|     24   |  scheduler |   https://github.com/shotdog/scheduler |     scheduler专门进行任务的调度分发任务工作，各个任务的具体任务执行分配到各个项目中， 从而达到对任务的统一配置和管理。 该工具提供了web管理界面 |
 
 **[⬆ 返回顶部](#目录)**
