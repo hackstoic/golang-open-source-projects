@@ -1,3 +1,4 @@
+
 看过awesome-go项目， 汇总了很多go开源项目。 但是awesome-go收集了太全了， 而且每个项目没有详细描述。 因此我自己根据go语言中文社区提供的资料，还有互联网企业架构设计中的常见组件分类， 共精心挑选了100多个开源项目（项目不限于在github开源的项目）， 分成以下十几个大类。 这个项目可以理解为互联网IT人打造的中文版awesome-go。这个项目初衷是帮助到那些想学习和借鉴优秀golang开源项目， 和在互联网架构设计时期望快速寻找合适轮子的人。
 
 #  目录
@@ -39,6 +40,8 @@
 | 13   | zabbixctl                       | https://github.com/kovetskiy/zabbixctl   | Zabbixctl 是采用Zabbix服务API的命令行工具，它提供了有效的方式去查询和处理trigger 状态、主机最新数据和用户组。 |
 | 14   | cloudinsight-agent              | https://github.com/cloudinsight/cloudinsight-agent/ | 提供可视化监控的saas平台cloudinsight开源的一个监控客户端。 Cloudinsight 探针可以收集它所在操作系统的各种指标，然后发送到 Cloudinsight 后端服务 |
 | 15   | owl                             | https://github.com/TalkingData/owl       | OWL是TalkingData公司推出的一款开源分布式监控系统, 演示环境http://54.223.127.87/， 登录账号密码demo/demo |
+| 16   | SmartPing                            | https://github.com/gy-games/smartping      | SmartPing为一个各机器(点)间间互PING检测工具，支持互PING，单向PING，绘制拓扑及报警功能。 系统设计为无中心化原则，所有的数据均存储自身点中，默认数据循环保留1个月时间，由自身点的数据绘制 出PING包 的状态，由各其他点的数据绘制 进PING包 的状态，并API接口获取其他点数据绘制整体PING拓扑图，拓扑图中存在报警功能。 |
+
 
 # 容器技术
 | 序号   | 名称         | 项目地址                                    | 简介                                       |
@@ -57,6 +60,7 @@
 | 12   | scope      | https://github.com/weaveworks/scope     | 一个docker&kubernetes的管理，监控可视化工具， 可以看到容器间的拓扑关系和tcp通信 |
 | 13   | habitus    | https://github.com/cloud66/habitus      | 一个快速实现docker build 流程的工具， 支持复杂的docker build流程，实现多个dockerfile的build流程，典型应用如将需要静态编译的程序，如go， java这类程序在一个docker build编译好之后，得到的二进制包用到后续的build流程 |
 | 14   | sextant    | https://github.com/k8sp/sextant         | sextant 提供了可以通过PXE全自动化安装初始化一个CoreOS+kubernetes集群。 |
+| 15   | KubeVirt    | http://github.com/kubevirt/kubevirt        |KubeVirt 是一个围绕 Kubernetes 构建的虚拟机管理架构。使用 KubeVirt 可声明：创建预定义的 VM，在 Kubernetes 集群上调度 VM（启动 VM，停止 VM，删除 VM）｜
 
 # PaaS工具
 | 序号   | 名称                 | 项目地址                                     | 简介                                       |
@@ -69,6 +73,8 @@
 | 6    | Tsuru              | https://github.com/tsuru/tsuru           | 在 Tsuru 的 PaaS 服务下，你可以选择自己的编程语言，选择使用 SQL 或者 NoSQL 数据库，memcache、redis、等等许多服务，甚至与你可以使用 Git 版本控制工具来上传你应用。 |
 | 7    | atlantis           | https://github.com/ooyala/atlantis       | Atlantis 是一款基于 Docker，使用 Go 编写，为 HTTP 应用准备的开源 PaaS。Atlantis 可以在路由请求中轻松的构建和部署应用到容器。Atlantis 在 Ooyala 的新应用中得到了很广泛的应用。 |
 |    8  |     lain   |    https://github.com/laincloud/lain     |   Lain 是一个基于 docker 的 PaaS 系统。其面向技术栈多样寻求高效运维方案的高速发展中的组织，devops 人力缺乏的 startup ，个人开发者。统一高效的开发工作流，降低应用运维复杂度；在 IaaS / 私有 IDC 裸机的基础上直接提供应用开发，集成，部署，运维的一揽子解决方案。      |
+|    9  |     OpenDCP   |    https://github.com/weibocom/opendcp     |   OpenDCP是一个基于Docker的云资源管理与调度平台，集镜像仓库、多云支持、服务编排、服务发现等功能与一身，支持服务池的扩缩容，其技术体系源于微博用于支持节假日及热点峰值流量的弹性调度DCP系统。OpenDCP允许利用公有云服务器搭建起适应互联网应用的IT基础设施，并且将运维的工作量降到最低。      |
+|    10  |     Swan  |    http://github.com/Dataman-Cloud/swan     |   Swan 是一个基于 mesos 的新 HTTP API，使用 golang 开发。你可以使用 swan 在 mesos 集群上部署应用程序，并管理应用程序的整个生命周期，还可以使用新版本进行滚动更新，扩展应用程序，并且可以在应用程序或服务不可用时对应用程序和自动故障转移进行运行状况检查。      |
 
 # 大数据
 | 序号   | 名称       | 项目地址                                   | 简介                                       |
@@ -93,6 +99,7 @@
 | 7    | gateway    | https://github.com/fagongzi/gateway    | Gateway是一个使用go实现的基于HTTP的API 网关。**特性** ：API 聚合 ; 流控;  熔断; 负载均衡; 健康检查;  监控;  消息路由;  后端管理WebUI .  **能做什么**：规划更友好的URL给调用者。聚合多个API的结果返回给API调用者，利于移动端，后端可以实现原子接口。保护后端API服务不会被突发异常流量压垮。提供熔断机制，使得后端API Server具备自我恢复能力。借助消息路由能力，实现灰度发布，AB测试。 |
 | 8    | fabio      | https://github.com/eBay/fabio          | fabio 是 ebay 团队用 golang 开发的一个快速、简单零配置能够让 consul 部署的应用快速支持 http(s) 的负载均衡路由器。这里有一篇中文文章http://dockone.io/article/1567介绍了如何用fabio＋consul实现服务发现，负载均衡，并阐述了原理， 最后还有demo程序 |
 | 9    | appdash    | https://github.com/sourcegraph/appdash | go版本的分布式应用跟踪系统， 基于google dapper的原理构建     |
+| 10    | Jaeger    | https://github.com/uber/jaeger | Jaeger是Uber的分布式跟踪系统 ，基于google dapper的原理构建， 以Cassandra作为存储层     |
 
 # CI/CD
 
@@ -122,7 +129,7 @@
 | 16   | TiDB              | https://github.com/pingcap/tidb          | TiDB 是国内 PingCAP 团队开发的一个分布式 SQL 数据库。其灵感来自于 Google 的 F1, TiDB 支持包括传统 RDBMS 和 NoSQL 的特性。 |
 | 17   | kingshard         | https://github.com/flike/kingshard       | 一个高性能的mysql中间件， 支持读写分离， 数据分片， 安全审计等功能    |
 | 18   | influxdb          | https://github.com/influxdata/influxdb   | 一个可以水平扩展的时间序列数据库， 内建http api， 支持对数据打tag，灵活的查询策略和数据的实时查询，支持类sql语句进行查询 |
-
+| 19   | DBShield          |  http://github.com/nim4/DBShield  | DBShield 是用 Go 语言开发的数据库防火墙，用来保护你的数据免受 SQL 注入的侵扰。支持的数据库包括：DB2、MySQL、MariaDB、Oracle、PostgreSQL。 |
 
 
 # 存储技术
