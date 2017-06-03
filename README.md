@@ -92,7 +92,8 @@
 
 # 微服务
 | 项目                                     | 简介                                       |
-| ---- | ------------------------------- ||[ kite       ]( https://github.com/koding/kite         )| 一个基于go语言的微服务框架, Kite是Koding公司内部的一个框架, 该框架提供服务发现，多种认证功能，服务端通过RPC进行通信，同时还提供了websocket的js库，方便浏览器于服务器间进行通信。 |
+| ---- | ------------------------------- |
+|[ kite       ]( https://github.com/koding/kite         )| 一个基于go语言的微服务框架, Kite是Koding公司内部的一个框架, 该框架提供服务发现，多种认证功能，服务端通过RPC进行通信，同时还提供了websocket的js库，方便浏览器于服务器间进行通信。 |
 |[ goa        ]( https://github.com/goadesign/goa       )| Goa 是一款用 Go 用于构建微服务的框架，采用独特的设计优先的方法。     |
 |[ Go-kit     ]( https://github.com/go-kit/kit          )| Go-kit 是一个 Go 语言的分布式开发包，用于开发微服务。         |
 |[ Hprose     ]( https://github.com/andot/hprose        )| Hprose 是高性能远程对象服务引擎（High Performance Remote Object Service Engine）的缩写 —— 微服务首选引擎。它是一个先进的轻量级的跨语言跨平台面向对象的高性能远程动态通讯中间件。它不仅简单易用，而且功能强大。你只需要稍许的时间去学习，就能用它轻松构建跨语言跨平台的分布式应用系统了。 |
