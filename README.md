@@ -144,6 +144,7 @@
 |[ SeaweedFS ]( https://github.com/chrislusf/seaweedfs )| SeaweedFS 是简单，高伸缩性的分布式文件系统，包含两部分：存储数十亿的文件；快速为文件服务。SeaweedFS 作为支持全 POSIX 文件系统语义替代，Seaweed-FS 选择仅实现 key-file 的映射，类似 "NoSQL"，也可以说是 "NoFS"。 |
 |[ bfs       ]( https://github.com/Terry-Mao/bfs       )| bfs 是使用 Go 编写的分布式文件系统（小文件存储）。            |
 |[ IPFS      ]( https://github.com/ipfs/go-ipfs        )| IPFS 是分布式文件系统，寻求连接所有计算机设备的相同文件系统。在某些方面，这很类似于原始的 Web 目标，但是 IPFS 最终会更像单个比特流群交换的 git 对象。IPFS ＝ InterPlanetary File System |
+|[Gotgt](https://github.com/gostor/gotgt)| Gotgt 是使用 Go 编写的高性能、可扩展的 iSCSI target 服务。    |
 
 
 # 分布式系统
