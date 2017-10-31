@@ -6,7 +6,7 @@
 - [PaaS工具](#PaaS工具)
 - [大数据](#大数据)
 - [微服务](#微服务)
-- [持续集成与持续部署](#持续集成与持续部署)
+- [CI/CD](#CI/CD)
 - [数据库技术](#数据库技术)
 - [存储技术](#存储技术)
 - [分布式系统](#分布式系统)
@@ -59,6 +59,7 @@
 | 14   | sextant    | https://github.com/k8sp/sextant         | sextant 提供了可以通过PXE全自动化安装初始化一个CoreOS+kubernetes集群。 |
 
 # PaaS工具
+<<<<<<< HEAD
 | 序号   | 名称                 | 项目地址                                     | 简介                                       |
 | ---- | ------------------ | ---------------------------------------- | ---------------------------------------- |
 | 1    | Kel                | https://github.com/kelproject            | Kel 是一个开源的基于 Kubernetes 构建的 PaaS 系统，采用 Python 和 Go 语言开发。Kel 可简化管理 Web 应用发布和托管整个软件生命周期。Kel 帮助开发和运维人员轻松管理他们的应用架构，通过一组工具和组件让 K8S 使用非常简单。 |
@@ -77,6 +78,28 @@
 | 3    | goml     | https://github.com/cdipaolo/goml       | 机器学习的库, 包含了许多工具，能让你以在线方式学习其频道的数据内容。      |
 | 4    | Golearn  | https://github.com/sjwhitworth/golearn | GoLearn实现了熟悉的Scikit-learn 适应/预测界面，可实现快速预估测试和交换。GoLearn是一个成熟的项目，它提供了交叉验证和训练/测试等辅助功能。 |
 | 5    | Gorgonia | https://github.com/chewxy/gorgonia     | 这个机器学习资料库完全是用Go语言编写而成，据其开发者“chewxy”称能“ 提供动态建立神经网络及相关算法必需条件 。” |
+=======
+|序号|名称|项目地址|简介|
+| ----- | ----- | -----  | -----  |
+|      1  |      Kel |      https://github.com/kelproject    |    Kel 是一个开源的基于 Kubernetes 构建的 PaaS 系统，采用 Python 和 Go 语言开发。Kel 可简化管理 Web 应用发布和托管整个软件生命周期。Kel 帮助开发和运维人员轻松管理他们的应用架构，通过一组工具和组件让 K8S 使用非常简单。     |
+|       2 |     CloudFoundry-Mesos  |    https://github.com/mesos/cloudfoundry-mesos      |   Cloud Foundry-Mesos框架由华为与Mesosphere的工程师合作完成，能够为应用提供安全可靠的、可伸缩、可扩展的云端运行环境，并且应用能够 享用Cloud Foundry生态圈内各类丰富的服务资源。企业能够通过Cloud Foundry开发云应用，并通过Cloud Foundry-Mesos将应用部署到DCOS上，使应用能够与DCOS上安装的其他服务及应用框架共享资源，实现资源利用率最大化，能够大幅降低企业 数据中心运营成本。DCOS能够运行在虚拟和物理环境上，能够支持Linux（以及很快支持Windows），并可适用于私有云、公有云及混合云环境。   |
+|    3    |   Flynn    |     https://github.com/github/flynn     |    Flynn 是一个开源的 PaaS 系统，由 Docker 开发。采用 Go 语言编写。支持数据库包括 Postgres、Redis 和 MongoDB. Flynn 使用完全组件化模块化的设计，任何一个组件和模块都可以独立的进行替换。     |
+|     4   |    DINP   |     https://git.oschina.net/cnperl/dinp-server     |    DINP是又一个基于Docker开发的PaaS平台。     |
+|     5   |    Kubernetes   |     https://github.com/GoogleCloudPlatform/kubernetes     |         Kubernetes 是来自 Google 云平台的开源容器集群管理系统。基于 Docker 构建一个容器的调度服务。该系统可以自动在一个容器集群中选择一个工作容器供使用。其核心概念是 Container Pod。|
+|     6 |     Tsuru   |    https://github.com/tsuru/tsuru      |      在 Tsuru 的 PaaS 服务下，你可以选择自己的编程语言，选择使用 SQL 或者 NoSQL 数据库，memcache、redis、等等许多服务，甚至与你可以使用 Git 版本控制工具来上传你应用。   |
+|    7  |     atlantis   |    https://github.com/ooyala/atlantis     |   Atlantis 是一款基于 Docker，使用 Go 编写，为 HTTP 应用准备的开源 PaaS。Atlantis 可以在路由请求中轻松的构建和部署应用到容器。Atlantis 在 Ooyala 的新应用中得到了很广泛的应用。      |
+|    8  |     lain   |    https://github.com/laincloud/lain     |   Lain 是一个基于 docker 的 PaaS 系统。其面向技术栈多样寻求高效运维方案的高速发展中的组织，devops 人力缺乏的 startup ，个人开发者。统一高效的开发工作流，降低应用运维复杂度；在 IaaS / 私有 IDC 裸机的基础上直接提供应用开发，集成，部署，运维的一揽子解决方案。      |
+
+# 大数据
+|序号|名称|项目地址|简介|
+| ----- | ----- | -----  | -----  |
+|    1    |     MLF  |     https://github.com/huichen/mlf   |    弥勒佛项目是一个大数据机器学习框架。具有为处理大数据优化，可随业务增长scale up，模型的训练和使用都可以作为library或者service整合到在生产系统中，具有丰富的模型，高度可扩展，高度可读性，适合初学者进行大数据模型的学习等特点    |
+|     2   |     Glow  |    https://github.com/chrislusf/glow      |    glow 是使用 Go 编写的易用分布式计算系统，是 Hadoop Map Reduce，Spark，Flint，Samza 等等的替代品。Glow 的目标是提供一个库，可以在并行线程或者分布式集群机器中进行更简单计算。     |
+|      3     |      goml      |      https://github.com/cdipaolo/goml       |     机器学习的库, 包含了许多工具，能让你以在线方式学习其频道的数据内容。     |
+|     4      |     Golearn   |     https://github.com/sjwhitworth/golearn    |       GoLearn实现了熟悉的Scikit-learn 适应/预测界面，可实现快速预估测试和交换。GoLearn是一个成熟的项目，它提供了交叉验证和训练/测试等辅助功能。  |
+|     5      |     Gorgonia   |    https://github.com/chewxy/gorgonia     |     这个机器学习资料库完全是用Go语言编写而成，据其开发者“chewxy”称能“ 提供动态建立神经网络及相关算法必需条件 。”    |
+|     6      |     poseidon  |  https://github.com/Qihoo360/poseidon     |    Poseidon 系统是一个日志搜索平台，可以在数百万亿条、数百PB大小的日志数据中快速分析和检索特定字符串。该系统可以应用于任何结构化或非结构化海量(从万亿到千万亿规模)数据的查询检索需求)。    |
+>>>>>>> paas系统+1, 大数据+1 , 其它+2
 
 # 微服务
 | 序号   | 名称         | 项目地址                                   | 简介                                       |
@@ -91,7 +114,7 @@
 | 8    | fabio      | https://github.com/eBay/fabio          | fabio 是 ebay 团队用 golang 开发的一个快速、简单零配置能够让 consul 部署的应用快速支持 http(s) 的负载均衡路由器。这里有一篇中文文章http://dockone.io/article/1567介绍了如何用fabio＋consul实现服务发现，负载均衡，并阐述了原理， 最后还有demo程序 |
 | 9    | appdash    | https://github.com/sourcegraph/appdash | go版本的分布式应用跟踪系统， 基于google dapper的原理构建     |
 
-# 持续集成与持续部署
+# CI/CD
 
 | 序号   | 名称      | 项目地址                                | 简介                                       |
 | ---- | ------- | ----------------------------------- | ---------------------------------------- |
@@ -177,6 +200,7 @@
 | 4    | ngrok       | https://github.com/inconshreveable/ngrok | ngrok 是一个反向代理，通过在公共的端点和本地运行的 Web 服务器之间建立一个安全的通道。ngrok 可捕获和分析所有通道上的流量，便于后期分析和重放。 |
 
 
+
 # 网络工具
 | 序号   | 名称           | 项目地址                                     | 简介                                       |
 | ---- | ------------ | ---------------------------------------- | ---------------------------------------- |
@@ -238,6 +262,7 @@
 | 3    | chain       | https://github.com/chain/chain          | **金融领域的区块链项目 **. Chain是由一家刚成立两年的美国创业公司Chain推出，是一个企业级的区块链平台架构，可以让机构构造从零开始更好的金融服务。Chain 开放标准在以下方面实现突破：• 全新的共识模型在不到一秒的时间里实现交易的最终完成，即便是交易量非常大也能支持;• 私密解决方案对区块链数据进行加密，并让相关对手方和监管者进行有选择的读取;• 智能合约框架和虚拟机支持简单的规则执行，以及进行键值存储的图灵完整程序; • 可伸缩的数据模型可以为网络参与者降低运行负荷; • 丰富的元数据层可支持满足KYC（了解你的客户）和 AML（反洗钱）要求 |
 
 # 其它
+<<<<<<< HEAD
 | 序号   | 名称            | 项目地址                                     | 简介                                       |
 | ---- | ------------- | ---------------------------------------- | ---------------------------------------- |
 | 1    | kone          | https://github.com/xjdrew/kone           | 可用于家庭或者企业网络的透明代理，可用来翻墙等                  |
@@ -262,5 +287,33 @@
 | 20   | wu            | https://github.com/shanzi/wu/            | 一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
 | 21   | apex          | https://github.com/apex/apex             | 管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持） |
 | 22   | gosuv         | https://github.com/codeskyblue/gosuv     | 进程管理， 类似于python的supervisord ， 提供了web管理界面 |
+=======
+|序号|名称|项目地址|简介|
+| ----- | ----- | -----  | -----  |
+|     1   |    kone   |    https://github.com/xjdrew/kone    |  可用于家庭或者企业网络的透明代理，可用来翻墙等     |
+|     2   |     KodeRunr  |     https://github.com/jaxi/koderunr     |       KodeRunr (读作 code runner) 是款我在闲暇时间用Go语言编写的应用。顾名思义，你可以用它在网页上、命令行里写程序，贴代码，与此同时无需在本地安装任何编程语言。支持Ruby, Python, GO, Swift, C, Elixir等|
+|    3    |     godaemon  |     https://github.com/tim1020/godaemon     |   godaemon是用来为应用增加daemon和graceful的。      |
+|      4  |    Gomobile    |      https://github.com/golang/mobile    |     Gomobile是一个应用于iOS和Android的优秀跨平台开发库，为开发者提供用于创建Android和iOS 移动平台代码的工具。    |
+|      5  |    gojieba   |     https://github.com/yanyiwu/gojieba     |     "结巴"中文分词的Golang语言版本。    |
+|    6    |     Cherry  |    https://github.com/rafael-santiago/cherry      |    Cherry 是一个使用 Go 语言开发的 Web 聊天引擎。     |
+|     7   |    MailSlurper   |     https://github.com/mailslurper/mailslurper     |    MailSlurper 是一个便携的 SMTP 邮件服务器，对本地和团队应用开发来说非常有用。MailSlurper 体积小运行快速，支持 SQLite, MSSQL 和 MySQL. 数据库。     |
+|    8    |     RobustIRC   |      https://github.com/robustirc/robustirc    |      RobustIRC 是不会有网络中断情况的 IRC。RobustIRC 主要特性：服务器不可用的时候不会有网络中断； 可以使用标准 IRC 客户端； 健壮，可以很好处理客户端和网络的连接问题   |
+|     9   |    Qor    |     https://github.com/qor/qor     |      Qor 是基于 Golang 开发的的CMS 一系列工具库，基于 Qor可以快速搭建网站的后台管理系统。Qor 的工作库包含：1，后台管理：可以对数据库进去 CURD 管理，支持一对一，一对多，多对多关联关系维护等等； 2，支持上传图片到云以及 filesystem，resize、crop 图片等等 ；3，Publish 发布系统，可以修改数据，并且经过检查后，再发布到正式环境中； 4，状态机，可以用于开发工作流的系统； 5，I18n，翻译，可以通过在 WEB 界面翻译，并将翻译保存到数据库中； 6，L10n，本地化，不同于翻译，他可以针对某个地区来对内容，或者数据结构进行本地化。7，Roles，权限管理； 8，Exchange，通过 Excel，CSV 导入导出数据； 9，Worker，后台任务管理，可用于跑定时任务等等   |
+|    10    |  FishChat     |     https://github.com/oikomi/FishChatServer     |      FishChat（鱼传——鱼传尺素）分布式可伸缩 IM 服务器，是一款纯 golang 编写优秀的即时通讯软件(IM), 它集合了市面上已有产品的优点, 并具备 智能硬件网关管理(学习QQ物联思想, 构思中)。   |
+|    11    |    goRBAC    |    https://github.com/mikespook/gorbac      |      goRBAC 为 Go 语言应用提供了轻量级的基于角色的访问控制。 |
+|     12   |    hey   |     https://github.com/rakyll/hey     |    Boom 是 google 一女工程师使用 Go 语言开发的类似 apache ab 的性能测试工具。相比 ab，boom跨平台性更好，而且更容易安装。     |
+|    13    |    Mattermost   |      https://github.com/mattermost/platform    |   mattermost 是一个 Slack 的开源替代品。Mattermost 采用 Go 语言开发，这是一个开源的团队通讯服务。为团队带来跨 PC 和移动设备的消息、文件分享，提供归档和搜索功能。      |
+|    14    |  glot  |    https://github.com/prasmussen/glot      |     glot 是可以可以在线运行各种编程语言代码片段的平台，项目采用 Haskell Script 、Go、Erlang 和 Shell 开发，运行环境基于 Docker 容器进行。 |
+|   15     |   Lantern    |     https://github.com/getlantern/lantern     |      Lantern是一个点对点科学上网软件。   |
+|     16   |     dog-tunnel  |      https://github.com/vzex/dog-tunnel    |      狗洞是一个高速的 P2P 端口映射工具，同时支持Socks5代理。 0.5版后开始开源，UDP底层基于开源库KCP重写，效率大大提高，在恶劣环境下优势明显。 同时提供非P2P版本（Lite版本），两端连接过程完全不依赖中间服务器，支持加密和登陆认证，自动重连，但是需要人为确保两端能正常连通（否则请使用默认的P2P版本）   |
+|    17    |     GRPC  |     https://github.com/grpc  |      GRPC 是一个高性能、开源和通用的 RPC 框架，面向移动和 HTTP/2 设计。目前提供 C、Java 和 Go 语言版本，分别是：grpc, grpc-java, grpc-go. 其中 C 版本支持 C, C++, Node.js, Python, Ruby, Objective-C, PHP 和 C# 支持.GRPC 基于 HTTP/2 标准设计，带来诸如双向流、流控、头部压缩、单 TCP 连接上的多复用请求等特。这些特性使得其在移动设备上表现更好，更省电和节省空间占用。|
+|     18   |     LiteIDE  |     https://github.com/visualfc/liteide     |    LiteIDE是一款开源、跨平台的轻量级Go语言集成开发环境（IDE）。     |
+|     19   |     firefly-proxy   |     https://github.com/yinghuocho/firefly-proxy     |    穿墙工具。 GFW梯子。 提供客户端和服务端。支持多个平台， 包括linux， macos， windows ，android     |
+|     20   |     wu                   | https://github.com/shanzi/wu/ |  一个监听文件变化并自动执行某些操作的小工具 ，可以用于配置修改后自动重启web server |
+|     21   |  apex |   https://github.com/apex/apex  |     管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持）|
+|     22   |  gosuv |   https://github.com/codeskyblue/gosuv |     进程管理， 类似于python的supervisord ， 提供了web管理界面|
+|     23   |  chaosmonkey |   https://github.com/Netflix/chaosmonkey |     Chaos Monkey是netflix公司开源的一个用于服务可用性测试的工具，通过有计划的在生产系统制造真实的故障（如cpu负载高， 内存溢出，磁盘写满，服务器宕机等）来检测系统的可用性。 |
+|     24   |  scheduler |   https://github.com/shotdog/scheduler |     scheduler专门进行任务的调度分发任务工作，各个任务的具体任务执行分配到各个项目中， 从而达到对任务的统一配置和管理。 该工具提供了web管理界面 |
+>>>>>>> paas系统+1, 大数据+1 , 其它+2
 
 **[⬆ 返回顶部](#目录)**
