@@ -7,10 +7,10 @@
 #  目录
 - [监控系统](#监控系统)
 - [容器技术](#容器技术)
-- [PaaS工具](#PaaS工具)
+- [PaaS工具](#paas工具)
 - [大数据](#大数据)
 - [微服务](#微服务)
-- [CI/CD](#CI/CD)
+- [CI/CD](#cicd)
 - [数据库技术](#数据库技术)
 - [存储技术](#存储技术)
 - [分布式系统](#分布式系统)
@@ -18,8 +18,8 @@
 - [服务器管理](#服务器管理)
 - [安全工具](#安全工具)
 - [网络工具](#网络工具)
-- [Web工具](#Web工具)
-- [Web框架](#Web框架)
+- [Web工具](#web工具)
+- [Web框架](#web框架)
 - [区块链技术](#区块链技术)
 - [其它](#其它)
 
@@ -178,7 +178,7 @@
 | ---- | ------------------------------- |
 |[ Sharkey   ]( https://github.com/square/sharkey        )| Sharkey 是OpenSSH管理证书使用的服务。Sharkey 分为客户端组件和服务端组件，服务端负责发布已签署的主机证书，客户端负责在机器上安装主机证书。 |
 |[ OSinstall ]( https://github.com/idcos/osinstall       )| CloudBoot”(OSinstall)云装机平台，是金融云初创公司杭州云霁科技推出的一款X86服务器全自动装机工具，遵循Apache协议，完全开源免费。全自动构建物理机资源池，像创建虚拟机一样方便的安装物理机。 |
-|[ ssh2go    ]( https://github.com/karfield              )| ssh2go 是对libssh的golang 封装。libssh是SSH的代码库，同时支持服务端和客户端，日常所见的ssh, sshd, scp, sftp均基于libssh。ssh2go是对libssh的Go语言绑定， 100%的libssh接口都可用，同时集成示例，方便参考。 |
+|[ ssh2go    ]( https://github.com/karfield/ssh2go       )| ssh2go 是对libssh的golang 封装。libssh是SSH的代码库，同时支持服务端和客户端，日常所见的ssh, sshd, scp, sftp均基于libssh。ssh2go是对libssh的Go语言绑定， 100%的libssh接口都可用，同时集成示例，方便参考。 |
 |[ Gooverssh ]( https://github.com/scottkiss/gooverssh   )| gooverssh 是基于gosshtool的一个ssh开发包开发的一个基于ssh本地端口转发服务小应用，可以方便突破一些网络限制，如通过ssh代理访问内网数据库服 |
 |[ gosshtool ]( https://github.com/scottkiss/gosshtool   )| gosshtool provide some useful functions for ssh client in golang.implemented using golang.org/x/crypto/ssh.go语言中提供ssh相关操作，支持ssh本地端口转发服务 |
 |[ teleport  ]( https://github.com/gravitational/teleport )| teleport 是 初创公司Gravitational 的一款基于ssh和https的远程管理linux 集群服务器的工具， 其特点是支持双重校验登陆；操作记录回放；session共享，便于协作排障；自动发现集群的服务器和容器 |
@@ -209,7 +209,7 @@
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
 |[ Tyk          ]( https://github.com/lonelycode/tyk        )| Tyk 是一个开源的、轻量级的、快速可伸缩的 API 网关，支持配额和速度限制，支持认证和数据分析，支持多用户多组织，提供全 RESTful API。 |
-|[ Shortme      ]( https://github.com/andyxning             )| 用Golang编写的URL短链接服务。                      |
+|[ Shortme      ]( https://github.com/andyxning/shortme     )| 用Golang编写的URL短链接服务。                      |
 |[ WuKongSearch ]( https://github.com/huichen/wukong        )| WuKong 是一个全文搜索引擎。功能特性有：高效索引和搜索（1M条微博500M数据28秒索引完，1.65毫秒搜索响应时间，19K搜索QPS）；支持中文分词（使用sego分词包并发分词，速度27MB/秒）；支持计算关键词在文本中的紧邻距离（token proximity）；支持计算BM25相关度；支持自定义评分字段和评分规则；支持在线添加、删除索引；支持持久存储；可实现分布式索引和搜索等 |
 |[ Pholcus      ]( https://github.com/henrylee2cn/pholcus   )| Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。 |
 |[ Codetainer   ]( https://github.com/codetainerapp/codetainer )| Codetainer 可以让你创建基于浏览器上的代码运行沙箱，可方便的嵌入到你的 Web 应用中。你可以把它当成是 codepicnic.com 的开源克隆) . |
