@@ -94,6 +94,7 @@
 # 微服务
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
+|[ micro ](https://github.com/micro/micro)| Micro是一个专注于简化分布式系统开发的微服务生态系统。可插拔的插件化设计，提供强大的可插拔的架构来保证基础组件可以被灵活替换。|
 |[ kite       ]( https://github.com/koding/kite         )| 一个基于go语言的微服务框架, Kite是Koding公司内部的一个框架, 该框架提供服务发现，多种认证功能，服务端通过RPC进行通信，同时还提供了websocket的js库，方便浏览器于服务器间进行通信。 |
 |[ goa        ]( https://github.com/goadesign/goa       )| Goa 是一款用 Go 用于构建微服务的框架，采用独特的设计优先的方法。     |
 |[ Go-kit     ]( https://github.com/go-kit/kit          )| Go-kit 是一个 Go 语言的分布式开发包，用于开发微服务。         |
@@ -115,6 +116,7 @@
 # 数据库技术
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
+|[ LedisDB ](https://github.com/siddontang/ledisdb)| ledisdb是一个参考ssdb，采用go实现，底层基于leveldb，类似redis的高性能nosql数据库，提供了kv，list，hash以及zset数据结构的支持。 |
 |[ BuntDB            ]( github.com/tidwall/buntdb                )| 是纯Go开发的、低层级的（low-level）的、可嵌入的key/value内存数据库（IMDB），数据持久化存储，遵从ACID，支持自定义索引和geospatial 数据。 |
 |[ Cockroach         ]( https://github.com/cockroachdb/cockroach )| CockroachDB (蟑螂数据库）是一个可伸缩的、支持地理位置处理、支持事务处理的数据存储系统。CockroachDB 提供两种不同的的事务特性，包括快照隔离（snapshot isolation，简称SI）和顺序的快照隔离（SSI）语义，后者是默认的隔离级别。 |
 |[ qb-go             ]( https://github.com/aacanakin             )| qb是用来让使更容易使用数据库的go语言的数据库工具包。它受Python最喜欢的ORM SQLAlchemy的启发，既是一个ORM，也是一个查询生成器。它在表达api和查询构建东西的情形下是相当模块化的。 |
@@ -122,7 +124,9 @@
 |[ Codis             ]( https://github.com/wandoulabs/codis      )| Codis 是一个分布式 Redis 解决方案, 对于上层的应用来说, 连接到 Codis Proxy 和连接原生的 Redis Server 没有明显的区别 (不支持的命令列表), 上层应用可以像使用单机的 Redis 一样使用, Codis 底层会处理请求的转发, 不停机的数据迁移等工作, 所有后边的一切事情, 对于前面的客户端来说是透明的, 可以简单的认为后边连接的是一个内存无限大的 Redis 服务. |
 |[ Cayley            ]( https://github.com/google/cayley         )| Cayley 是 Google 的一个开源图(Graph)数据库，其灵感来自于 Freebase 和 Google 的 Knowledge Graph 背后的图数据库。 |
 |[ Redigo            ]( https://github.com/garyburd/redigo       )| Redigo 是 Redis 数据库的 Go 客户端。              |
+|[ radix.v2          ]( https://github.com/mediocregopher/radix.v2 )| radix.v2是redis官方推荐的客户端之一，相比于redigo,radix.v2特点是轻量、接口实现优雅、API友好|
 |[ redis-go-cluster  ]( https://github.com/chasex/redis-go-cluster )| redis-go-cluster 是基于 Redigo 实现的 Golang Redis 客户端。redis-go-cluster 可以在本地缓存 slot 信息，并且当集群修改的时候会自动更新。此客户端管理每个节点连接池，使用 goroutine 来尽可能的并发执行，达到了高效，低延迟。 |
+|[ elastic           ]( https://github.com/olivere/elastic       )| elastic是开源搜索引擎elasticsearch的golang客户端，API友好，支持绝大部分es的接口,支持的es版本全面，从1.x到最新的6.x全覆盖|
 |[ Dgraph            ]( https://github.com/dgraph-io/dgraph      )| dgraph 是可扩展的，分布式的，低延迟图形数据库。DGraph 的目标是提供 Google 生产水平的规模和吞吐量，在超过TB的结构数据里，未用户提供足够低延迟的实时查询。DGraph 支持 GraphQL 作为查询语言，响应 JSON。 |
 |[ DegDB             ]( https://github.com/degdb/degdb           )| DegDB 是分布式的经济图数据库。                       |
 |[ Vitess            ]( https://github.com/youtube/vitess        )| outube出品的开源分布式MySQL工具集Vitess，自动分片存储MySQL数据表，将单个SQL查询改写为分布式发送到多个MySQL Server上，支持行缓存（比MySQL本身缓存效率高），支持复制容错，已用于Youtube生产环境 |
