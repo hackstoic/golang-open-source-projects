@@ -80,7 +80,7 @@
 |[     OpenDCP   ](    https://github.com/weibocom/opendcp     )|   OpenDCP是一个基于Docker的云资源管理与调度平台，集镜像仓库、多云支持、服务编排、服务发现等功能与一身，支持服务池的扩缩容，其技术体系源于微博用于支持节假日及热点峰值流量的弹性调度DCP系统。OpenDCP允许利用公有云服务器搭建起适应互联网应用的IT基础设施，并且将运维的工作量降到最低。      |
 |[     Swan  ](    http://github.com/Dataman-Cloud/swan     )|   Swan 是一个基于 mesos 的新 HTTP API，使用 golang 开发。你可以使用 swan 在 mesos 集群上部署应用程序，并管理应用程序的整个生命周期，还可以使用新版本进行滚动更新，扩展应用程序，并且可以在应用程序或服务不可用时对应用程序和自动故障转移进行运行状况检查。      |
 
-# 大数据
+# 大数据&ML
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
 |[ MLF      ]( https://github.com/huichen/mlf         )| 弥勒佛项目是一个大数据机器学习框架。具有为处理大数据优化，可随业务增长scale up，模型的训练和使用都可以作为library或者service整合到在生产系统中，具有丰富的模型，高度可扩展，高度可读性，适合初学者进行大数据模型的学习等特点 |
@@ -284,7 +284,8 @@
 |[ apex          ]( https://github.com/apex/apex             )| 管理，部署aws lambda函数的工具， 支持用go语言编写lambda函数（注：目前aws官方不支持用go语言编写lambda函数，但是apex却可以变相支持） |
 |[ gosuv         ]( https://github.com/codeskyblue/gosuv     )| 进程管理， 类似于python的supervisord ， 提供了web管理界面 |
 |[chaosmonkey ](   https://github.com/Netflix/chaosmonkey )|     Chaos Monkey是netflix公司开源的一个用于服务可用性测试的工具，通过有计划的在生产系统制造真实的故障（如cpu负载高， 内存溢出，磁盘写满，服务器宕机等）来检测系统的可用性。 |
-|[ scheduler ](   https://github.com/shotdog/scheduler )|     scheduler专门进行任务的调度分发任务工作，各个任务的具体任务执行分配到各个项目中， 从而达到对任务的统一配置和管理。 该工具提供了web管理界面 |
+|[ scheduler ](   https://yygithub.com/shotdog/scheduler )|     scheduler专门进行任务的调度分发任务工作，各个任务的具体任务执行分配到各个项目中， 从而达到对任务的统一配置和管理。 该工具提供了web管理界面 |
+|[ hugo ]( https://github.com/gohugoio/hugo )| Hugo是由Go语言实现的静态网站生成器；简单、易用、高效、易扩展、快速部署；相比于Hexo、Jekyll，hugo的优势是生成速度极快。 | 
 
 **[⬆ 返回顶部](#目录)**
 
