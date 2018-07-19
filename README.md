@@ -250,6 +250,7 @@
 |[ Macaron ]( https://github.com/go-macaron/macaron  )| Macaron 是一个具有高生产力和模块化设计的 Go Web 框架。框架秉承了 Martini 的基本思想，并在此基础上做出高级扩展。 |
 |[ Web.go  ]( https://github.com/hoisie/web          )| web.go 跟 web.py 类似，但使用的是 Go 编程语言实现的 Web 应用开发框架。Go发布没多久该框架就诞生了，差不多是最早的Go框架。目前已经有段时间没有更新了。不过，该框架代码不多，其源码可以读一读。 |
 |[ Echo    ]( https://github.com/labstack/echo       )| Echo 是个快速的 HTTP 路由器（零动态内存分配），也是 Go 的微型 Web 框架。 |
+|[ pbgo    ]( https://github.com/chai2010/pbgo       )| pbgo 是是一个基于Protobuf的迷你RPC/REST框架, 提供插件从Protobuf文件自动生成辅助代码。 |
 
 # 区块链技术
 | 项目                                     | 简介                                       |
