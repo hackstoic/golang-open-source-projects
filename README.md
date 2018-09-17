@@ -105,6 +105,7 @@
 |[ fabio      ]( https://github.com/eBay/fabio          )| fabio 是 ebay 团队用 golang 开发的一个快速、简单零配置能够让 consul 部署的应用快速支持 http(s) 的负载均衡路由器。这里有一篇中文文章http://dockone.io/article/1567介绍了如何用fabio＋consul实现服务发现，负载均衡，并阐述了原理， 最后还有demo程序 |
 |[ appdash    ]( https://github.com/sourcegraph/appdash )| go版本的分布式应用跟踪系统， 基于google dapper的原理构建     |
 |[ Jaeger    ]( https://github.com/uber/jaeger )| Jaeger是Uber的分布式跟踪系统 ，基于google dapper的原理构建， 以Cassandra作为存储层     |
+|[ Rainbond   ]( https://github.com/goodrain/rainbond   )| 云帮是一款以应用为中心的开源PaaS，深度整合Kubernetes的容器管理和Service Mesh微服务架构最佳实践，满足支撑业务高速发展所需的敏捷开发、高效运维和精益管理需求 |
 
 # CI/CD
 
