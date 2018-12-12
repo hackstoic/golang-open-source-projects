@@ -289,6 +289,7 @@
 |[chaosmonkey ](   https://github.com/Netflix/chaosmonkey )|     Chaos Monkey是netflix公司开源的一个用于服务可用性测试的工具，通过有计划的在生产系统制造真实的故障（如cpu负载高， 内存溢出，磁盘写满，服务器宕机等）来检测系统的可用性。 |
 |[ scheduler ](   https://github.com/shotdog/scheduler )|     scheduler专门进行任务的调度分发任务工作，各个任务的具体任务执行分配到各个项目中， 从而达到对任务的统一配置和管理。 该工具提供了web管理界面 |
 |[ hugo ]( https://github.com/gohugoio/hugo )| Hugo是由Go语言实现的静态网站生成器；简单、易用、高效、易扩展、快速部署；相比于Hexo、Jekyll，hugo的优势是生成速度极快。 | 
+|[ ptt-daily-beauty ]( https://github.com/Larry850806/ptt-daily-beauty )| ptt-daily-beauty 是一個用 Go 語言實作的日報，每天晚上十一點會爬取 PTT Beauty 版上的前三名發送到信箱，歡迎大家一同參與改善表特日報 |
 
 **[⬆ 返回顶部](#目录)**
 
