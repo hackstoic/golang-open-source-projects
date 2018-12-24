@@ -289,6 +289,7 @@
 |[chaosmonkey ](   https://github.com/Netflix/chaosmonkey )|     Chaos Monkey是netflix公司开源的一个用于服务可用性测试的工具，通过有计划的在生产系统制造真实的故障（如cpu负载高， 内存溢出，磁盘写满，服务器宕机等）来检测系统的可用性。 |
 |[ scheduler ](   https://github.com/shotdog/scheduler )|     scheduler专门进行任务的调度分发任务工作，各个任务的具体任务执行分配到各个项目中， 从而达到对任务的统一配置和管理。 该工具提供了web管理界面 |
 |[ hugo ]( https://github.com/gohugoio/hugo )| Hugo是由Go语言实现的静态网站生成器；简单、易用、高效、易扩展、快速部署；相比于Hexo、Jekyll，hugo的优势是生成速度极快。 | 
+|[ logkit ]( https://github.com/qiniu/logkit )| logkit 是一款专业的集合了日志收集、监控信息采集、边缘计算等功能的工具，类似于logstash、flume等，支持上百种数据源采集和监控、内置数十种解析、转换、计算方式，并支持发送到Kafka、Mongo、HTTP服务、文件系统等等。 | 
 
 **[⬆ 返回顶部](#目录)**
 
