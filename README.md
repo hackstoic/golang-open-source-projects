@@ -241,6 +241,7 @@
 |[ Orivil  ]( https://github.com/orivil/orivil       )| Orivil 是由 golang 开发的全新 web 框架，灵感来源于 Laravel 及 Symfony。 |
 |[ ecgo    ]( https://github.com/tim1020/ecgo        )| ecgo 是一个易学、易用、易扩展的go web开发框架             |
 |[ Gin     ]( https://github.com/gin-gonic/gin       )| Gin 是一个用 Go 语言开发的 Web 框架，提供类 Martini 的 API，但是性能更好。因为有了 httprouter 性能提升了 40 倍之多。 |
+|[ Gorouter     ]( https://github.com/xujiajun/gorouter       )| Gorouter 是一个用 Go 语言开发的简单高性能的http Router。基于Gorouter很方便的构建自己的web框架以及编写RestFul Api。 |
 |[ Melody  ]( https://github.com/olahol/melody       )| Melody 是一个 Go 语言的微型 WebSocket 框架，基于 github.com/gorilla/websocket 开发， |
 |[ utron   ]( https://github.com/gernest/utron       )| utron 是一个 Go 语言轻量级的 MVC 框架，用于快速构建可伸缩以及可靠的数据库驱动的 Web 应用。 |
 |[ Lessgo  ]( https://github.com/lessgo/lessgo       )| Lessgo 是一款 Go 语言编写的简单、稳定、高效、灵活的 web 完全开发框架。它的项目组织形式经过精心设计，实现前后端分离、系统与业务分离，完美兼容MVC与MVVC等多种开发模式，非常利于企业级应用与API接口的开发。当然，最值得关注的是它突破性地支持了运行时路由重建，开发者可在Admin后台轻松实现启用/禁用模块与操作，添加/移除中间件等功能！同时，它推荐以HandlerFunc与MiddlewareFunc为基础的函数式编程，也令开发变得更加灵活富有趣味性。 |
