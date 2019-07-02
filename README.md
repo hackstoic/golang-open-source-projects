@@ -113,6 +113,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[hidu/mysql-schema-sync                      ](https://github.com/hidu/mysql-schema-sync)| mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境! |
 |[goshawkdb/server                      ](https://github.com/goshawkdb/server)| GoshawkDB 是一个采用 Go 语言开发支持多平台的分布式的对象存储服务，支持事务以及容错。GoshawkDB 的事务控制是在客户端完成的。GoshawkDB 服务器端使用 AGPL 许可，而 Go 语言客户端使用 Apache 许可证 |
 |[degdb/degdb                      ](https://github.com/degdb/degdb)| DegDB 是分布式的经济图数据库。                       |
+|[XiaoMi/Gaea                      ](https://github.com/XiaoMi/Gaea)| Gaea是小米商城/系统组研发的基于mysql协议的数据库中间件，目前在小米商城大陆和海外得到广泛使用。 |
 
 # 存储技术
 | 项目                                     | 简介                                       |
