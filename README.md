@@ -1,10 +1,12 @@
 这个项目可以理解为针对互联网IT人打造的中文版awesome-go。已有的awesome-go项目， 汇总了很多go开源项目， 但存在的问题是收集太全了， 而且每个项目没有详细描述。
 
- 本项目作为awesome-go的一个扩展，根据go语言中文社区提供的资料，还有互联网企业架构设计中的常见组件分类， 共精心挑选了153个开源项目（项目不限于在github开源的项目）， 分成以下17个大类。
+ 本项目作为awesome-go的一个扩展，根据go语言中文社区提供的资料，还有互联网企业架构设计中的常见组件分类， 共精心挑选了155个开源项目（项目不限于在github开源的项目）， 分成以下17个大类。
 
  项目初衷是帮助到那些想学习和借鉴优秀golang开源项目， 和在互联网架构设计时期望快速寻找合适轮子的人。
 
 ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔除无效链接。 每个分类下的项目会按照**star数从高到低**进行排列。
+
+[目录](#目录)
 
 - [监控系统](#监控系统)
 - [容器技术](#容器技术)
@@ -63,12 +65,12 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
 |[kubernetes/kubernetes                      ](https://github.com/kubernetes/kubernetes)| Kubernetes 是来自 Google 云平台的开源容器集群管理系统。基于 Docker 构建一个容器的调度服务。该系统可以自动在一个容器集群中选择一个工作容器供使用。其核心概念是 Container Pod。 |
+|[rancher/rancher                      ](https://github.com/rancher/rancher)|Rancher2是基于Go编写的k8s管理平台，采用k8s in k8s的方式，极大的简化了k8s部署，并能同时管理多套k8s集群，操作和安全俱佳，是一款非常好的Devops工具|
 |[tsuru/tsuru                      ](https://github.com/tsuru/tsuru)| 在 Tsuru 的 PaaS 服务下，你可以选择自己的编程语言，选择使用 SQL 或者 NoSQL 数据库，memcache、redis、等等许多服务，甚至与你可以使用 Git 版本控制工具来上传你应用。 |
 |[laincloud/lain                      ](https://github.com/laincloud/lain)|   Lain 是一个基于 docker 的 PaaS 系统。其面向技术栈多样寻求高效运维方案的高速发展中的组织，devops 人力缺乏的 startup ，个人开发者。统一高效的开发工作流，降低应用运维复杂度；在 IaaS / 私有 IDC 裸机的基础上直接提供应用开发，集成，部署，运维的一揽子解决方案。      |
 |[ooyala/atlantis                      ](https://github.com/ooyala/atlantis)| Atlantis 是一款基于 Docker，使用 Go 编写，为 HTTP 应用准备的开源 PaaS。Atlantis 可以在路由请求中轻松的构建和部署应用到容器。Atlantis 在 Ooyala 的新应用中得到了很广泛的应用。 |
 |[weibocom/opendcp                      ](https://github.com/weibocom/opendcp)|   OpenDCP是一个基于Docker的云资源管理与调度平台，集镜像仓库、多云支持、服务编排、服务发现等功能与一身，支持服务池的扩缩容，其技术体系源于微博用于支持节假日及热点峰值流量的弹性调度DCP系统。OpenDCP允许利用公有云服务器搭建起适应互联网应用的IT基础设施，并且将运维的工作量降到最低。      |
 |[mesos/cloudfoundry-mesos                      ](https://github.com/mesos/cloudfoundry-mesos)| Cloud Foundry-Mesos框架由华为与Mesosphere的工程师合作完成，能够为应用提供安全可靠的、可伸缩、可扩展的云端运行环境，并且应用能够 享用Cloud Foundry生态圈内各类丰富的服务资源。企业能够通过Cloud Foundry开发云应用，并通过Cloud Foundry-Mesos将应用部署到DCOS上，使应用能够与DCOS上安装的其他服务及应用框架共享资源，实现资源利用率最大化，能够大幅降低企业 数据中心运营成本。DCOS能够运行在虚拟和物理环境上，能够支持Linux（以及很快支持Windows），并可适用于私有云、公有云及混合云环境。 |
-|[rancher/rancher                      ](https://github.com/rancher/rancher/)| Rancher2是基于Go编写的k8s管理平台，采用k8s in k8s的方式，极大的简化了k8s部署，并能同时管理多套k8s集群，操作和安全俱佳，是一款非常好的Devops工具 |
 
 # 微服务
 | 项目                                     | 简介                                       |
@@ -107,14 +109,14 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[flike/kingshard                      ](https://github.com/flike/kingshard)| 一个高性能的mysql中间件， 支持读写分离， 数据分片， 安全审计等功能    |
 |[olivere/elastic                      ](https://github.com/olivere/elastic)| elastic是开源搜索引擎elasticsearch的golang客户端，API友好，支持绝大部分es的接口,支持的es版本全面，从1.x到最新的6.x全覆盖|
 |[siddontang/ledisdb                      ](https://github.com/siddontang/ledisdb)| ledisdb是一个参考ssdb，采用go实现，底层基于leveldb，类似redis的高性能nosql数据库，提供了kv，list，hash以及zset数据结构的支持。 |
+|[XiaoMi/Gaea                      ](https://github.com/XiaoMi/Gaea)|Gaea是小米商城/系统组研发的基于mysql协议的数据库中间件，目前在小米商城大陆和海外得到广泛使用。 |
 |[outbrain/orchestrator                      ](https://github.com/outbrain/orchestrator)| MySQL 复制拓扑可视化工具                          |
 |[slicebit/qb                      ](https://github.com/slicebit/qb)| qb是用来让使更容易使用数据库的go语言的数据库工具包。它受Python最喜欢的ORM SQLAlchemy的启发，既是一个ORM，也是一个查询生成器。它在表达api和查询构建东西的情形下是相当模块化的。 |
 |[mediocregopher/radix.v2                      ](https://github.com/mediocregopher/radix.v2)| radix.v2是redis官方推荐的客户端之一，相比于redigo,radix.v2特点是轻量、接口实现优雅、API友好|
-|[chasex/redis-go-cluster                      ](https://github.com/chasex/redis-go-cluster)| redis-go-cluster 是基于 Redigo 实现的 Golang Redis 客户端。redis-go-cluster 可以在本地缓存 slot 信息，并且当集群修改的时候会自动更新。此客户端管理每个节点连接池，使用 goroutine 来尽可能的并发执行，达到了高效，低延迟。 |
 |[hidu/mysql-schema-sync                      ](https://github.com/hidu/mysql-schema-sync)| mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境! |
+|[chasex/redis-go-cluster                      ](https://github.com/chasex/redis-go-cluster)| redis-go-cluster 是基于 Redigo 实现的 Golang Redis 客户端。redis-go-cluster 可以在本地缓存 slot 信息，并且当集群修改的时候会自动更新。此客户端管理每个节点连接池，使用 goroutine 来尽可能的并发执行，达到了高效，低延迟。 |
 |[goshawkdb/server                      ](https://github.com/goshawkdb/server)| GoshawkDB 是一个采用 Go 语言开发支持多平台的分布式的对象存储服务，支持事务以及容错。GoshawkDB 的事务控制是在客户端完成的。GoshawkDB 服务器端使用 AGPL 许可，而 Go 语言客户端使用 Apache 许可证 |
 |[degdb/degdb                      ](https://github.com/degdb/degdb)| DegDB 是分布式的经济图数据库。                       |
-|[XiaoMi/Gaea                      ](https://github.com/XiaoMi/Gaea)| Gaea是小米商城/系统组研发的基于mysql协议的数据库中间件，目前在小米商城大陆和海外得到广泛使用。 |
 
 # 存储技术
 | 项目                                     | 简介                                       |
@@ -185,10 +187,11 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[henrylee2cn/pholcus                      ](https://github.com/henrylee2cn/pholcus)| Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。 |
 |[lonelycode/tyk                      ](https://github.com/lonelycode/tyk)| Tyk 是一个开源的、轻量级的、快速可伸缩的 API 网关，支持配额和速度限制，支持认证和数据分析，支持多用户多组织，提供全 RESTful API。 |
 |[etsy/hound                      ](https://github.com/etsy/hound)| 快如闪电的代码搜索开源工具                            |
-|[huichen/wukong                      ](https://github.com/huichen/wukong)| WuKong 是一个全文搜索引擎。功能特性有：高效索引和搜索（1M条微博500M数据28秒索引完，1.65毫秒搜索响应时间，19K搜索QPS）；支持中文分词（使用sego分词包并发分词，速度27MB/秒）；支持计算关键词在文本中的紧邻距离（token proximity）；支持计算BM25相关度；支持自定义评分字段和评分规则；支持在线添加、删除索引；支持持久存储；可实现分布式索引和搜索等 |
 |[Terry-Mao/goim                      ](https://github.com/Terry-Mao/goim)| goim 是一个支持集群的im及实时推送服务（支持websocket，http和tcp协议） |
+|[huichen/wukong                      ](https://github.com/huichen/wukong)| WuKong 是一个全文搜索引擎。功能特性有：高效索引和搜索（1M条微博500M数据28秒索引完，1.65毫秒搜索响应时间，19K搜索QPS）；支持中文分词（使用sego分词包并发分词，速度27MB/秒）；支持计算关键词在文本中的紧邻距离（token proximity）；支持计算BM25相关度；支持自定义评分字段和评分规则；支持在线添加、删除索引；支持持久存储；可实现分布式索引和搜索等 |
 |[afex/hystrix-go                      ](https://github.com/afex/hystrix-go)|    用来隔离远程系统调用， 第三方库调用 ，服务调用， 提供熔断机制，避免雪崩效应的库， Hystrix的go 版本。 注Hystrixs是Netflix开源的一个java库    |
 |[tus/tusd                      ](https://github.com/tus/tusd)|  实现文件上传的断点续传功能， 整套功能包含了协议实现，client， server。 client及server有多种语言的实现包括go， python， node等｜
+|
 |[codetainerapp/codetainer                      ](https://github.com/codetainerapp/codetainer)| Codetainer 可以让你创建基于浏览器上的代码运行沙箱，可方便的嵌入到你的 Web 应用中。你可以把它当成是 codepicnic.com 的开源克隆) . |
 |[ga0/netgraph                      ](https://github.com/ga0/netgraph)| netgraph 是一个 Go 语言编写的跨平台的 B/S 架构的 HTTP 抓包工具，方便在 Linux 服务器上直接查看 HTTP 包。 |
 |[hidu/pproxy                      ](https://github.com/hidu/pproxy)|http抓包代理程序,http协议调试工具 |
