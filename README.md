@@ -244,6 +244,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[codeskyblue/gosuv                      ](https://github.com/codeskyblue/gosuv)| 进程管理， 类似于python的supervisord ， 提供了web管理界面 |
 |[rafael-santiago/cherry                      ](https://github.com/rafael-santiago/cherry)| Cherry 是一个使用 Go 语言开发的 Web 聊天引擎。          |
 |[robustirc/robustirc                      ](https://github.com/robustirc/robustirc)| RobustIRC 是不会有网络中断情况的 IRC。RobustIRC 主要特性：服务器不可用的时候不会有网络中断； 可以使用标准 IRC 客户端； 健壮，可以很好处理客户端和网络的连接问题 |
-
+|[gogs/gogs                 ](https://github.com/gogs/gogs)| 一款极易搭建的自助 Git 服务, Github 及 GitLab 替代方案                     |
+|[go-gitea/gitea                 ](https://github.com/go-gitea/gitea)|一个开源社区驱动的轻量级代码托管解决方案|
 
 **[⬆ 返回顶部](#目录)**
