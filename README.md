@@ -1,6 +1,6 @@
 这个项目可以理解为针对互联网IT人打造的中文版awesome-go。已有的awesome-go项目， 汇总了很多go开源项目， 但存在的问题是收集太全了， 而且每个项目没有详细描述。
 
- 本项目作为awesome-go的一个扩展，根据go语言中文社区提供的资料，还有互联网企业架构设计中的常见组件分类， 共精心挑选了155个开源项目（项目不限于在github开源的项目）， 分成以下17个大类。
+ 本项目作为awesome-go的一个扩展，根据go语言中文社区提供的资料，还有互联网企业架构设计中的常见组件分类， 共精心挑选了153个开源项目（项目不限于在github开源的项目）， 分成以下17个大类。
 
  项目初衷是帮助到那些想学习和借鉴优秀golang开源项目， 和在互联网架构设计时期望快速寻找合适轮子的人。
 
@@ -37,7 +37,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[influxdata/kapacitor                      ](https://github.com/influxdata/kapacitor)| Kapacitor 是一个开源框架，用来处理、监控和警告时间序列数据。      |
 |[open-falcon/of-release                      ](https://github.com/open-falcon/of-release)| OpenFalcon是一款小米开源的监控系统。功能：数据采集免配置：agent自发现、支持Plugin、主动推送模式; 容量水平扩展：生产环境每秒50万次数据收集、告警、存储、绘图，可持续水平扩展。告警策略自发现：Web界面、支持策略模板、模板继承和覆盖、多种告警方式、支持回调动作。告警设置人性化：支持最大告警次数、告警级别设置、告警恢复通知、告警暂停、不同时段不同阈值、支持维护周期，支持告警合并。历史数据高效查询：秒级返回上百个指标一年的历史数据。Dashboard人性化：多维度的数据展示，用户自定义Dashboard等功能。架构设计高可用：整个系统无核心单点，易运维，易部署。 |
 |[rach/pome                      ](https://github.com/rach/pome)| Pome 是 Postgres Metrics 的意思。Pome 是一个 PostgreSQL 的指标仪表器，用来跟踪你的数据库的健康状况。 |
-|[TalkingData/owl                      ](https://github.com/TalkingData/owl)| OWL是TalkingData公司推出的一款开源分布式监控系统, 演示环境http://54.223.127.87/， 登录账号密码demo/demo |
+|[TalkingData/owl                      ](https://github.com/TalkingData/owl)| OWL是TalkingData公司推出的一款开源分布式监控系统, 演示环境http://54.223.127.87/ 登录账号密码demo/demo |
 |[gy-games/smartping                      ](https://github.com/gy-games/smartping)| SmartPing为一个各机器(点)间间互PING检测工具，支持互PING，单向PING，绘制拓扑及报警功能。 系统设计为无中心化原则，所有的数据均存储自身点中，默认数据循环保留1个月时间，由自身点的数据绘制 出PING包 的状态，由各其他点的数据绘制 进PING包 的状态，并API接口获取其他点数据绘制整体PING拓扑图，拓扑图中存在报警功能。 |
 |[pinggg/pingd                      ](https://github.com/pinggg/pingd)| pingd 是世界上最简单的监控服务，使用 golang 编写。软件支持 IPv6，但是服务器不支持. pingd 允许同时 ping 上千个 IPs，在此期间还可以管理监控的主机。用户提供主机名或者 IP，还有用户邮箱地址，就可以使用 3 个生成 URLs 来开启，停止或者删除你的追踪。每当你的服务器停机或者后台在线都会发送通知，还包含控制 URLs。 |
 |[cloudinsight/cloudinsight-agent                      ](https://github.com/cloudinsight/cloudinsight-agent)| 提供可视化监控的saas平台cloudinsight开源的一个监控客户端。 Cloudinsight 探针可以收集它所在操作系统的各种指标，然后发送到 Cloudinsight 后端服务 |
@@ -113,8 +113,8 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[outbrain/orchestrator                      ](https://github.com/outbrain/orchestrator)| MySQL 复制拓扑可视化工具                          |
 |[slicebit/qb                      ](https://github.com/slicebit/qb)| qb是用来让使更容易使用数据库的go语言的数据库工具包。它受Python最喜欢的ORM SQLAlchemy的启发，既是一个ORM，也是一个查询生成器。它在表达api和查询构建东西的情形下是相当模块化的。 |
 |[mediocregopher/radix.v2                      ](https://github.com/mediocregopher/radix.v2)| radix.v2是redis官方推荐的客户端之一，相比于redigo,radix.v2特点是轻量、接口实现优雅、API友好|
-|[hidu/mysql-schema-sync                      ](https://github.com/hidu/mysql-schema-sync)| mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境! |
 |[chasex/redis-go-cluster                      ](https://github.com/chasex/redis-go-cluster)| redis-go-cluster 是基于 Redigo 实现的 Golang Redis 客户端。redis-go-cluster 可以在本地缓存 slot 信息，并且当集群修改的时候会自动更新。此客户端管理每个节点连接池，使用 goroutine 来尽可能的并发执行，达到了高效，低延迟。 |
+|[hidu/mysql-schema-sync                      ](https://github.com/hidu/mysql-schema-sync)| mysql-schema-sync 是一款使用go开发的、跨平台的、绿色无依赖的 MySQL 表结构自动同步工具。用于将线上(其他环境)数据库结构变化同步到测试（本地）环境! |
 |[goshawkdb/server                      ](https://github.com/goshawkdb/server)| GoshawkDB 是一个采用 Go 语言开发支持多平台的分布式的对象存储服务，支持事务以及容错。GoshawkDB 的事务控制是在客户端完成的。GoshawkDB 服务器端使用 AGPL 许可，而 Go 语言客户端使用 Apache 许可证 |
 |[degdb/degdb                      ](https://github.com/degdb/degdb)| DegDB 是分布式的经济图数据库。                       |
 
@@ -182,7 +182,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
 |[yudai/gotty                      ](https://github.com/yudai/gotty)| GoTTY 是个简单的命令行工具，可以把 CLI 工具共享成 Web 应用。GoTTY 可以把终端作为 Web 应用共享。 |
-|[valyala/fasthttp                      ](https://github.com/valyala/fasthttp)| asthttp 是 Go 的快速 HTTP 实现，当前在 1M 并发的生产环境使用非常成功，可以从单个服务器进行 100K qps 的持续连接。HTTP 服务器性能与 net/http 比较，fasthttp 比 net/http 快 10 倍 |
+|[valyala/fasthttp                      ](https://github.com/valyala/fasthttp)|fasthttp 是 Go 的快速 HTTP 实现，当前在 1M 并发的生产环境使用非常成功，可以从单个服务器进行 100K qps 的持续连接。HTTP 服务器性能与 net/http 比较，fasthttp 比 net/http 快 10 倍 |
 |[gizak/termui                      ](https://github.com/gizak/termui)| Go语言编写的终端仪表盘                             |
 |[henrylee2cn/pholcus                      ](https://github.com/henrylee2cn/pholcus)| Pholcus（幽灵蛛）是一款纯Go语言编写的高并发、分布式、重量级爬虫软件，支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/csv/excel等）、有大量Demo共享；同时她还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。 |
 |[lonelycode/tyk                      ](https://github.com/lonelycode/tyk)| Tyk 是一个开源的、轻量级的、快速可伸缩的 API 网关，支持配额和速度限制，支持认证和数据分析，支持多用户多组织，提供全 RESTful API。 |
@@ -190,8 +190,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[Terry-Mao/goim                      ](https://github.com/Terry-Mao/goim)| goim 是一个支持集群的im及实时推送服务（支持websocket，http和tcp协议） |
 |[huichen/wukong                      ](https://github.com/huichen/wukong)| WuKong 是一个全文搜索引擎。功能特性有：高效索引和搜索（1M条微博500M数据28秒索引完，1.65毫秒搜索响应时间，19K搜索QPS）；支持中文分词（使用sego分词包并发分词，速度27MB/秒）；支持计算关键词在文本中的紧邻距离（token proximity）；支持计算BM25相关度；支持自定义评分字段和评分规则；支持在线添加、删除索引；支持持久存储；可实现分布式索引和搜索等 |
 |[afex/hystrix-go                      ](https://github.com/afex/hystrix-go)|    用来隔离远程系统调用， 第三方库调用 ，服务调用， 提供熔断机制，避免雪崩效应的库， Hystrix的go 版本。 注Hystrixs是Netflix开源的一个java库    |
-|[tus/tusd                      ](https://github.com/tus/tusd)|  实现文件上传的断点续传功能， 整套功能包含了协议实现，client， server。 client及server有多种语言的实现包括go， python， node等｜
-|
+|[tus/tusd                      ](https://github.com/tus/tusd)|  实现文件上传的断点续传功能， 整套功能包含了协议实现，client， server。 client及server有多种语言的实现包括go， python， node等|
 |[codetainerapp/codetainer                      ](https://github.com/codetainerapp/codetainer)| Codetainer 可以让你创建基于浏览器上的代码运行沙箱，可方便的嵌入到你的 Web 应用中。你可以把它当成是 codepicnic.com 的开源克隆) . |
 |[ga0/netgraph                      ](https://github.com/ga0/netgraph)| netgraph 是一个 Go 语言编写的跨平台的 B/S 架构的 HTTP 抓包工具，方便在 Linux 服务器上直接查看 HTTP 包。 |
 |[hidu/pproxy                      ](https://github.com/hidu/pproxy)|http抓包代理程序,http协议调试工具 |
@@ -232,14 +231,12 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[Netflix/chaosmonkey                      ](https://github.com/Netflix/chaosmonkey)|     Chaos Monkey是netflix公司开源的一个用于服务可用性测试的工具，通过有计划的在生产系统制造真实的故障（如cpu负载高， 内存溢出，磁盘写满，服务器宕机等）来检测系统的可用性。 |
 |[rakyll/hey                      ](https://github.com/rakyll/hey)| Boom 是 google 一女工程师使用 Go 语言开发的类似 apache ab 的性能测试工具。相比 ab，boom跨平台性更好，而且更容易安装。 |
 |[visualfc/liteide                      ](https://github.com/visualfc/liteide)| LiteIDE是一款开源、跨平台的轻量级Go语言集成开发环境（IDE）。     |
-|[yinghuocho/firefly-proxy                      ](https://github.com/yinghuocho/firefly-proxy)| 穿墙工具。 GFW梯子。 提供客户端和服务端。支持多个平台， 包括linux， macos， windows ，android |
 |[qor/qor                      ](https://github.com/qor/qor)| Qor 是基于 Golang 开发的的CMS 一系列工具库，基于 Qor可以快速搭建网站的后台管理系统。Qor 的工作库包含：1，后台管理：可以对数据库进去 CURD 管理，支持一对一，一对多，多对多关联关系维护等等； 2，支持上传图片到云以及 filesystem，resize、crop 图片等等 ；3，Publish 发布系统，可以修改数据，并且经过检查后，再发布到正式环境中； 4，状态机，可以用于开发工作流的系统； 5，I18n，翻译，可以通过在 WEB 界面翻译，并将翻译保存到数据库中； 6，L10n，本地化，不同于翻译，他可以针对某个地区来对内容，或者数据结构进行本地化。7，Roles，权限管理； 8，Exchange，通过 Excel，CSV 导入导出数据； 9，Worker，后台任务管理，可用于跑定时任务等等 |
 |[golang/mobile                      ](https://github.com/golang/mobile)| Gomobile是一个应用于iOS和Android的优秀跨平台开发库，为开发者提供用于创建Android和iOS 移动平台代码的工具。 |
 |[vzex/dog-tunnel                      ](https://github.com/vzex/dog-tunnel)| 狗洞是一个高速的 P2P 端口映射工具，同时支持Socks5代理。 0.5版后开始开源，UDP底层基于开源库KCP重写，效率大大提高，在恶劣环境下优势明显。 同时提供非P2P版本（Lite版本），两端连接过程完全不依赖中间服务器，支持加密和登陆认证，自动重连，但是需要人为确保两端能正常连通（否则请使用默认的P2P版本） |
 |[prasmussen/glot                      ](https://github.com/prasmussen/glot)| glot 是可以可以在线运行各种编程语言代码片段的平台，项目采用 Haskell Script 、Go、Erlang 和 Shell 开发，运行环境基于 Docker 容器进行。 |
 |[mikespook/gorbac                      ](https://github.com/mikespook/gorbac)| goRBAC 为 Go 语言应用提供了轻量级的基于角色的访问控制。        |
 |[oikomi/FishChatServer                      ](https://github.com/oikomi/FishChatServer)| FishChat（鱼传——鱼传尺素）分布式可伸缩 IM 服务器，是一款纯 golang 编写优秀的即时通讯软件(IM), 它集合了市面上已有产品的优点, 并具备 智能硬件网关管理(学习QQ物联思想, 构思中)。 |
-|[yanyiwu/gojieba                      ](https://github.com/yanyiwu/gojieba)| "结巴"中文分词的Golang语言版本。                     |
 |[mailslurper/mailslurper                      ](https://github.com/mailslurper/mailslurper)| MailSlurper 是一个便携的 SMTP 邮件服务器，对本地和团队应用开发来说非常有用。MailSlurper 体积小运行快速，支持 SQLite, MSSQL 和 MySQL. 数据库。 |
 |[xjdrew/kone                      ](https://github.com/xjdrew/kone)| 可用于家庭或者企业网络的透明代理，可用来翻墙等                  |
 |[codeskyblue/gosuv                      ](https://github.com/codeskyblue/gosuv)| 进程管理， 类似于python的supervisord ， 提供了web管理界面 |
