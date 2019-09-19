@@ -178,6 +178,11 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[GameXG/TcpRoute2                      ](https://github.com/GameXG/TcpRoute2)| TcpRoute, TCP 层的路由器。对于 TCP 连接自动从多个线路(允许任意嵌套)、多个域名解析结果中选择最优线路。TcpRoute2 是 golang 重写的版本。通过 socks5 代理协议对外提供服务。代理功能拆分成了独立的库，详细代理url格式级选项请参见 ProxyClient，目前支持直连、socks4、socks4a、socks5、http、https、ss 代理线路 |
 |[jpillora/go-tcp-proxy                      ](https://github.com/jpillora/go-tcp-proxy)| go-tcp-proxy是一个简单的tcp代理， 可以用于tcp端口转发， 也可以用做http代理使用 |
 
+# 网络框架
+| 项目                                     | 简介                                       |
+| ---- | ------------------------------- |
+|[panjf2000/gnet                      ](https://github.com/panjf2000/gnet)| `gnet` 是一个基于 Event-Loop 事件驱动的高性能且轻量级的网络库。这个库直接使用 [epoll](https://en.wikipedia.org/wiki/Epoll) 和 [kqueue](https://en.wikipedia.org/wiki/Kqueue) 系统调用而非 Golang 的标准网络包：[net](https://golang.org/pkg/net/) 来构建网络应用，它的工作原理类似于两个开源的网络库：[libuv](https://github.com/libuv/libuv) 和 [libevent](https://github.com/libevent/libevent)。性能比 Go 的标准 net 包更高，且接口简洁、易于使用，目前支持 Linux 和 FreeBSD 这两种类 Unix 的操作系统。 |
+
 # Web工具
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
@@ -220,7 +225,14 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[hyperledger/fabric                      ](https://github.com/hyperledger/fabric)| Fabric是一个开源区块链实现，开发环境建立在VirtualBox虚拟机上，部署环境可以自建网络，也可以直接部署在BlueMix上，部署方式可传统可docker化，共识达成算法插件化，支持用Go和JavaScript开发智能合约，尤以企业级的安全机制和membership机制为特色。你要是不知道这些术语什么意思，就记住一点，Fabric之于区块链，很可能正如Hadoop之于大数据。 |
 |[chain/chain                      ](https://github.com/chain/chain)| **金融领域的区块链项目 **. Chain是由一家刚成立两年的美国创业公司Chain推出，是一个企业级的区块链平台架构，可以让机构构造从零开始更好的金融服务。Chain 开放标准在以下方面实现突破：• 全新的共识模型在不到一秒的时间里实现交易的最终完成，即便是交易量非常大也能支持;• 私密解决方案对区块链数据进行加密，并让相关对手方和监管者进行有选择的读取;• 智能合约框架和虚拟机支持简单的规则执行，以及进行键值存储的图灵完整程序; • 可伸缩的数据模型可以为网络参与者降低运行负荷; • 丰富的元数据层可支持满足KYC（了解你的客户）和 AML（反洗钱）要求 |
 
+# Goroutines 相关
+| 项目                                     | 简介                                       |
+| ---- | ------------------------------- |
+|[panjf2000/ant](https://github.com/panjf2000/ants)| `ants`是一个高性能的 goroutine 池，实现了对大规模 goroutine 的调度管理、goroutine 复用，允许使用者在开发并发程序的时候限制协程数量，复用资源，达到更高效执行任务的效果。 |
+
+
 # 其它
+
 | 项目                                     | 简介                                       |
 | ---- | ------------------------------- |
 |[getlantern/lantern                      ](https://github.com/getlantern/lantern)| Lantern是一个点对点科学上网软件。                     |
