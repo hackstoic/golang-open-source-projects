@@ -369,10 +369,10 @@
       "desc": " Lantern是一个点对点科学上网软件。                     ",
       "name": "lantern"
     },
-    "oikomi/FishChatServer": {
+    "oikomi/FishChatServer2": {
       "owner": "oikomi",
       "desc": " FishChat（鱼传——鱼传尺素）分布式可伸缩 IM 服务器，是一款纯 golang 编写优秀的即时通讯软件(IM), 它集合了市面上已有产品的优点, 并具备 智能硬件网关管理(学习QQ物联思想, 构思中)。 ",
-      "name": "FishChatServer"
+      "name": "FishChatServer2"
     },
     "grpc/grpc-go": {
       "owner": "grpc",
@@ -408,7 +408,7 @@
     },
     "rapidloop/rtop": {
       "owner": "rapidloop",
-      "desc": " top 是一个简单的无代理的远程服务器监控工具，基于 SSH 连接进行工作。无需在被监控的服务器上安装任何软件。rtop 直接通过 SSH 连接到待监控服务器，然后执行命令来收集监控数据。rtop 每几秒钟就自动更新监控数据，类似其他 *top 命令 ",
+      "desc": "rtop 是一个简单的无代理的远程服务器监控工具，基于 SSH 连接进行工作。无需在被监控的服务器上安装任何软件。rtop 直接通过 SSH 连接到待监控服务器，然后执行命令来收集监控数据。rtop 每几秒钟就自动更新监控数据，类似其他 *top 命令 ",
       "name": "rtop"
     },
     "grafana/grafana": {
@@ -765,10 +765,10 @@
       "desc": " 一个可以水平扩展的时间序列数据库， 内建http api， 支持对数据打tag，灵活的查询策略和数据的实时查询，支持类sql语句进行查询 ",
       "name": "influxdb"
     },
-    "mediocregopher/radix.v2": {
+    "mediocregopher/radix": {
       "owner": "mediocregopher",
-      "desc": " radix.v2是redis官方推荐的客户端之一，相比于redigo,radix.v2特点是轻量、接口实现优雅、API友好",
-      "name": "radix.v2"
+      "desc": " radix是redis官方推荐的客户端之一，相比于redigo,radix.v2特点是轻量、接口实现优雅、API友好",
+      "name": "radix"
     },
     "chasex/redis-go-cluster": {
       "owner": "chasex",
@@ -826,11 +826,6 @@
       "owner": "bitly",
       "desc": " NSQ 是无中心设计、节点自动注册和发现的开源消息系统。可作为内部通讯框架的基础，易于配置和发布。 ",
       "name": "nsq"
-    },
-    "kingsoft-wps/kingtask": {
-      "owner": "kingsoft-wps",
-      "desc": " kingtask是一个由Go开发的轻量级的异步定时任务系统。支持定时的异步任务。 支持失败重试机制，重试时刻和次数可自定义。 任务执行结果可查询。 ",
-      "name": "kingtask"
     },
     "blackbeans/kiteq": {
       "owner": "blackbeans",
