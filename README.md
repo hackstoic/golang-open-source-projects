@@ -1,9 +1,8 @@
-这个项目可以理解为针对互联网IT人打造的中文版awesome-go。已有的awesome-go项目， 汇总了很多go开源项目， 但存在的问题是收集太全了， 而且每个项目没有详细描述。
-
+这个项目可以理解为针对互联网IT人打造的中文版awesome-go。已有的awesome-go项目， 汇总了很多go开源项目， 但存在的问题是收集太全了， 而且每个项目没有详细
  本项目作为awesome-go的一个扩展，根据go语言中文社区提供的资料，还有互联网企业架构设计中的常见组件分类， 共精心挑选了154个开源项目（项目不限于在github开源的项目）， 分成以下17个大类。
 
  项目初衷是帮助到那些想学习和借鉴优秀golang开源项目， 和在互联网架构设计时期望快速寻找合适轮子的人。
-
+Your PR was submitted to a repository that is not participating in Hacktoberfest. Maintainers of the repository can add the "hacktoberfest" topic to their repository if they wish to participate. Alternatively, an individual PR can be opted-in with a maintainer adding the "hacktoberfest-accepted" label to the PR.
 ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔除无效链接。 每个分类下的项目会按照**star数从高到低**进行排列。
 
 [目录](#目录)
