@@ -72,6 +72,11 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[weibocom/opendcp                      ](https://github.com/weibocom/opendcp)|   OpenDCP是一个基于Docker的云资源管理与调度平台，集镜像仓库、多云支持、服务编排、服务发现等功能与一身，支持服务池的扩缩容，其技术体系源于微博用于支持节假日及热点峰值流量的弹性调度DCP系统。OpenDCP允许利用公有云服务器搭建起适应互联网应用的IT基础设施，并且将运维的工作量降到最低。      |381|
 |[mesos/cloudfoundry-mesos                      ](https://github.com/mesos/cloudfoundry-mesos)| Cloud Foundry-Mesos框架由华为与Mesosphere的工程师合作完成，能够为应用提供安全可靠的、可伸缩、可扩展的云端运行环境，并且应用能够 享用Cloud Foundry生态圈内各类丰富的服务资源。企业能够通过Cloud Foundry开发云应用，并通过Cloud Foundry-Mesos将应用部署到DCOS上，使应用能够与DCOS上安装的其他服务及应用框架共享资源，实现资源利用率最大化，能够大幅降低企业 数据中心运营成本。DCOS能够运行在虚拟和物理环境上，能够支持Linux（以及很快支持Windows），并可适用于私有云、公有云及混合云环境。 |107|
 
+# 大数据
+| 项目                                     | 简介                                       | Star数                                       |
+| ---- | ------------------------------- | ---- |
+|[treeverse/lakeFS                      ](https://github.com/treeverse/lakeFS)| 对象存储之上的可重复，原子和版本化数据湖。         |709|
+
 # 微服务
 | 项目                                     | 简介                                       | Star数                                       |
 | ---- | ------------------------------- | ---- |
