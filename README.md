@@ -199,7 +199,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 | 项目                                     | 简介                                       | Star数                                       |
 | ---- | ------------------------------- | ---- |
 |[gin-gonic/gin                      ](https://github.com/gin-gonic/gin)| Gin 是一个用 Go 语言开发的 Web 框架，提供类 Martini 的 API，但是性能更好。因为有了 httprouter 性能提升了 40 倍之多。 |36433|
-|[astaxie/beego                      ](https://github.com/astaxie/beego)| beego是一个用Go开发的应用框架，思路来自于tornado，路由设计来源于sinatra， |23525|
+|[beego/beego                      ](https://github.com/beego/beego)| beego是一个用Go开发的应用框架，思路来自于tornado，路由设计来源于sinatra， |23525|
 |[kataras/iris                      ](https://github.com/kataras/iris)| 通过Iris-Go，可以方便的帮助你来开发基于web的应用。简单来说：Iris-Go与国内大牛的BeeGo类似，但从其官方介绍的资料来看，Iris-Go的性能更优！ |17776|
 |[labstack/echo                      ](https://github.com/labstack/echo)| Echo 是个快速的 HTTP 路由器（零动态内存分配），也是 Go 的微型 Web 框架。 |16793|
 |[codegangsta/martini                      ](https://github.com/codegangsta/martini)| Martini 是一个非常新的 Go 语言的 Web 框架，使用 Go 的 net/http 接口开发，类似 Sinatra 或者 Flask 之类的框架，你可使用自己的 DB 层、会话管理和模板。 |10888|
