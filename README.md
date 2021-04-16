@@ -117,6 +117,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[mediocregopher/radix                      ](https://github.com/mediocregopher/radix)| radix是redis官方推荐的客户端之一，相比于redigo,radix.v2特点是轻量、接口实现优雅、API友好|327|
 |[goshawkdb/server                      ](https://github.com/goshawkdb/server)| GoshawkDB 是一个采用 Go 语言开发支持多平台的分布式的对象存储服务，支持事务以及容错。GoshawkDB 的事务控制是在客户端完成的。GoshawkDB 服务器端使用 AGPL 许可，而 Go 语言客户端使用 Apache 许可证 |204|
 |[degdb/degdb                      ](https://github.com/degdb/degdb)| DegDB 是分布式的经济图数据库。                       |201|
+|[roseduan/rosedb](https://github.com/roseduan/rosedb) | rosedb 是一个用 Go 编写的 k-v 数据库，支持多种数据结构 string、list、hash、set、zset，简洁易于学习。 | 101  |
 
 # 存储技术
 | 项目                                     | 简介                                       | Star数                                       |
