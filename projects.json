@@ -831,6 +831,11 @@
       "owner": "blackbeans",
       "desc": " KiteQ 是一个基于 go + protobuff 实现的多种持久化方案的 mq 框架（消息队列）。 ",
       "name": "kiteq"
+    },
+    "nats-io/nats-server": {
+      "owner": "Ivan Kozlovic",
+      "desc": " NATS是一个开源、轻量级、高性能的云原生消息系统。它是实现了具有更高级别扩展性的发布-订阅消息系统。即使NATS是基于发布-订阅分发模型，也可以通过订阅服务器队列组实现分布式系统。 ",
+      "name": "nats-server"
     }
   }
 }

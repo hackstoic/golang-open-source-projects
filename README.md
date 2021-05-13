@@ -147,6 +147,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 | 项目                                     | 简介                                       | Star数                                       |
 | ---- | ------------------------------- | ---- |
 |[bitly/nsq                      ](https://github.com/bitly/nsq)| NSQ 是无中心设计、节点自动注册和发现的开源消息系统。可作为内部通讯框架的基础，易于配置和发布。 |17388|
+|[nats-io/nats-server            ](https://github.com/nats-io/nats-server)| NATS是一个开源、轻量级、高性能的云原生消息系统。它是实现了具有更高级别扩展性的发布-订阅消息系统。即使NATS是基于发布-订阅分发模型，也可以通过订阅服务器队列组实现分布式系统。 |9282|
 |[RichardKnop/machinery                      ](https://github.com/RichardKnop/machinery)| Machinery 是一个 Go 语言的异步任务队列和作业队列，基于分布式消息传递。类似 Python 的 Celery 框架。 |3902|
 |[blackbeans/kiteq                      ](https://github.com/blackbeans/kiteq)| KiteQ 是一个基于 go + protobuff 实现的多种持久化方案的 mq 框架（消息队列）。 |742|
 
