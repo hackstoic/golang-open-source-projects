@@ -104,7 +104,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 |[google/cayley                      ](https://github.com/google/cayley)| Cayley 是 Google 的一个开源图(Graph)数据库，其灵感来自于 Freebase 和 Google 的 Knowledge Graph 背后的图数据库。 |13277|
 |[dgraph-io/dgraph                      ](https://github.com/dgraph-io/dgraph)| dgraph 是可扩展的，分布式的，低延迟图形数据库。DGraph 的目标是提供 Google 生产水平的规模和吞吐量，在超过TB的结构数据里，未用户提供足够低延迟的实时查询。DGraph 支持 GraphQL 作为查询语言，响应 JSON。 |12759|
 |[wandoulabs/codis                      ](https://github.com/wandoulabs/codis)| Codis 是一个分布式 Redis 解决方案, 对于上层的应用来说, 连接到 Codis Proxy 和连接原生的 Redis Server 没有明显的区别 (不支持的命令列表), 上层应用可以像使用单机的 Redis 一样使用, Codis 底层会处理请求的转发, 不停机的数据迁移等工作, 所有后边的一切事情, 对于前面的客户端来说是透明的, 可以简单的认为后边连接的是一个内存无限大的 Redis 服务. |10927|
-|[youtube/vitess                      ](https://github.com/youtube/vitess)| outube出品的开源分布式MySQL工具集Vitess，自动分片存储MySQL数据表，将单个SQL查询改写为分布式发送到多个MySQL Server上，支持行缓存（比MySQL本身缓存效率高），支持复制容错，已用于Youtube生产环境 |9720|
+|[youtube/vitess                      ](https://github.com/youtube/vitess)| Youtube出品的开源分布式MySQL工具集Vitess，自动分片存储MySQL数据表，将单个SQL查询改写为分布式发送到多个MySQL Server上，支持行缓存（比MySQL本身缓存效率高），支持复制容错，已用于Youtube生产环境 |9720|
 |[sosedoff/pgweb                      ](https://github.com/sosedoff/pgweb)| gweb 是一个采用 Go 语言开发的基于 Web 的 PostgreSQL 管理系统。 |6325|
 |[flike/kingshard                      ](https://github.com/flike/kingshard)| 一个高性能的mysql中间件， 支持读写分离， 数据分片， 安全审计等功能    |5070|
 |[olivere/elastic                      ](https://github.com/olivere/elastic)| elastic是开源搜索引擎elasticsearch的golang客户端，API友好，支持绝大部分es的接口,支持的es版本全面，从1.x到最新的6.x全覆盖|4822|
