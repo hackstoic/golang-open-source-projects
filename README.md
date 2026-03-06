@@ -222,6 +222,7 @@ ps: 以下项目**star数均大于100**，且会定期检查项目的url，剔�
 # 其它
 | 项目                                     | 简介                                       | Star数                                       |
 | ---- | ------------------------------- | ---- |
+|[PGYER/codefever                      ](https://github.com/PGYER/codefever)| CodeFever 是完全免费开源的 Git 代码托管服务，支持一行命令安装到自己服务器。 |1181|
 |[gohugoio/hugo                      ](https://github.com/gohugoio/hugo)| Hugo是由Go语言实现的静态网站生成器；简单、易用、高效、易扩展、快速部署；相比于Hexo、Jekyll，hugo的优势是生成速度极快。 |42615|
 |[mattermost/platform                      ](https://github.com/mattermost/platform)| mattermost 是一个 Slack 的开源替代品。Mattermost 采用 Go 语言开发，这是一个开源的团队通讯服务。为团队带来跨 PC 和移动设备的消息、文件分享，提供归档和搜索功能。 |17854|
 |[grpc/grpc-go                      ](https://github.com/grpc/grpc-go)| GRPC 是一个高性能、开源和通用的 RPC 框架，面向移动和 HTTP/2 设计。目前提供 C、Java 和 Go 语言版本，分别是：grpc, grpc-java, grpc-go. 其中 C 版本支持 C, C++, Node.js, Python, Ruby, Objective-C, PHP 和 C# 支持.GRPC 基于 HTTP/2 标准设计，带来诸如双向流、流控、头部压缩、单 TCP 连接上的多复用请求等特。这些特性使得其在移动设备上表现更好，更省电和节省空间占用。 |10893|
