@@ -173,6 +173,7 @@ ML、NLP、爬虫与数据处理
 | [gizak/termui](https://github.com/gizak/termui) | 在终端里构建可视化面板的 Go UI 库。 |
 | [golang/mobile](https://github.com/golang/mobile) | Go 官方维护的移动端开发工具链。 |
 | [hound-search/hound](https://github.com/hound-search/hound) | 适合自建的代码搜索工具。 |
+| [Omibranch/gitty](https://github.com/Omibranch/gitty) | 零依赖极简 Git CLI 工具，用单条命令替代 `git add + commit + push`。 |
 
 ## 区块链
 
