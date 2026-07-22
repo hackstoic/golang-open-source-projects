@@ -46,6 +46,7 @@ LLM 应用框架、MCP、模型运行时与向量能力
 | [ollama/ollama](https://github.com/ollama/ollama) | 本地运行、分发和管理大模型的 Go 运行时。 |
 | [tmc/langchaingo](https://github.com/tmc/langchaingo) | Go 版 LLM 应用框架，覆盖 prompt、tool calling、agent 和 RAG。 |
 | [cloudwego/eino](https://github.com/cloudwego/eino) | CloudWeGo 出品的 Go AI 应用框架，强调组件化编排和生产落地。 |
+| [Darkmoon](https://github.com/ASCIT31/Dark-Moon)  Autonomous AI pentest (GPL-3.0) |
 | [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | 用 Go 构建 MCP client 和 server 的实用 SDK。 |
 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | OpenAI 兼容的本地推理服务，适合私有化部署。 |
 | [mudler/LocalAGI](https://github.com/mudler/LocalAGI) | 面向本地模型的 Agent 平台，强调工具调用和自治流程。 |
