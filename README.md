@@ -2,7 +2,7 @@
 
 面向中文读者重新整理的 Go 开源项目目录。新版目录不再追求“尽可能全”，而是优先保留仍在维护、社区认知清晰、适合学习和选型的项目，并补充了 AI Agent 相关项目。
 
-当前版本收录 **77** 个项目，分成 **10** 个主题；最近一次维护状态审阅时间为 **2026-03-06**。
+当前版本收录 **78** 个项目，分成 **10** 个主题；最近一次维护状态审阅时间为 **2026-03-06**。
 
 - [English version](README_EN.md)
 - [分类与维护策略](docs/分类与维护策略.md)
@@ -31,7 +31,7 @@
 | 服务治理与平台工程 | PaaS、服务治理、CI/CD、消息与异步任务 | 12 |
 | 数据存储与搜索 | 数据库、分布式存储、检索与数据访问生态 | 10 |
 | 可观测性 | 指标、图表、告警与运行状态检查 | 6 |
-| 网络与安全 | 网关、负载均衡、代理、流量调试与网络工具 | 6 |
+| 网络与安全 | 网关、负载均衡、代理、流量调试与网络工具 | 7 |
 | Web 开发与应用 | Web 框架、服务端组件与实时交互能力 | 11 |
 | 数据处理与机器学习 | ML、NLP、爬虫与数据处理 | 6 |
 | 开发者工具与基础库 | 开发效率、测试、终端 UI 和核心基础库 | 8 |
@@ -122,6 +122,7 @@ PaaS、服务治理、CI/CD、消息与异步任务
 
 | 项目 | 简介 |
 | --- | --- |
+| [casdoor/casdoor](https://github.com/casdoor/casdoor) | 带 Web UI 的统一身份认证与访问控制（IAM/SSO）服务，支持 OAuth 2.0、OIDC、SAML、CAS 和 LDAP。 |
 | [traefik/traefik](https://github.com/traefik/traefik) | 云原生场景里广泛使用的反向代理和负载均衡器。 |
 | [google/seesaw](https://github.com/google/seesaw) | Google 开源的 Linux 负载均衡系统。 |
 | [jpillora/go-tcp-proxy](https://github.com/jpillora/go-tcp-proxy) | 实现简单、非常适合学习 TCP 代理原理。 |

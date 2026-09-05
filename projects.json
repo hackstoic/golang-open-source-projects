@@ -276,6 +276,11 @@
       "summary": "网关、负载均衡、代理、流量调试与网络工具",
       "projects": [
         {
+          "name": "Casdoor",
+          "repo": "casdoor/casdoor",
+          "desc": "带 Web UI 的统一身份认证与访问控制（IAM/SSO）服务，支持 OAuth 2.0、OIDC、SAML、CAS 和 LDAP。"
+        },
+        {
           "name": "Traefik",
           "repo": "traefik/traefik",
           "desc": "云原生场景里广泛使用的反向代理和负载均衡器。"
