@@ -2,7 +2,7 @@
 
 A curated Go open source project catalog for English readers. This refreshed list no longer tries to be exhaustive; it prioritizes projects that are still maintained, have clear community recognition, and are useful for learning or technology selection, with additional coverage for AI Agent projects.
 
-Current version includes **77** projects across **10** topics; the latest maintenance status review was completed on **2026-03-06**.
+Current version includes **78** projects across **10** topics; the latest maintenance status review was completed on **2026-03-06**.
 
 - [Chinese version](README.md)
 - [Category and maintenance policy](docs/category-and-maintenance-policy.md)
@@ -31,7 +31,7 @@ Current version includes **77** projects across **10** topics; the latest mainte
 | Service Governance and Platform Engineering | PaaS, service governance, CI/CD, messaging, and async jobs | 12 |
 | Data Storage and Search | Databases, distributed storage, search, and data access ecosystems | 10 |
 | Observability | Metrics, dashboards, alerting, and runtime health checks | 6 |
-| Networking and Security | Gateways, load balancing, proxies, traffic debugging, and network tools | 6 |
+| Networking and Security | Gateways, load balancing, proxies, traffic debugging, and network tools | 7 |
 | Web Development and Applications | Web frameworks, server-side components, and realtime interaction | 11 |
 | Data Processing and Machine Learning | ML, NLP, crawlers, and data processing | 6 |
 | Developer Tools and Core Libraries | Developer productivity, testing, terminal UI, and core libraries | 8 |
@@ -122,6 +122,7 @@ Gateways, load balancing, proxies, traffic debugging, and network tools
 
 | Project | Description |
 | --- | --- |
+| [casdoor/casdoor](https://github.com/casdoor/casdoor) | An identity and access management (IAM) / single sign-on (SSO) service with a web UI, supporting OAuth 2.0, OIDC, SAML, CAS, and LDAP. |
 | [traefik/traefik](https://github.com/traefik/traefik) | A widely used cloud native reverse proxy and load balancer. |
 | [google/seesaw](https://github.com/google/seesaw) | Google's open source Linux load balancing system. |
 | [jpillora/go-tcp-proxy](https://github.com/jpillora/go-tcp-proxy) | A simple implementation that is especially useful for learning TCP proxy fundamentals. |
